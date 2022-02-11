@@ -1,20 +1,36 @@
-import { NavLink } from 'react-router-dom';
+import { SideNav, SideNavItem, SideNavIcon, LogoImg, LogoContainer } from '../styled/navStyles';
+import Logo from '../../images/Logo.png';
 
 const Navbar = () => (
-  <>
-    <NavLink to="/">
-      Home
-    </NavLink>
-    <NavLink to="/about">
-      About
-    </NavLink>
-    <NavLink to="/projects">
-      Projects
-    </NavLink>
-    <NavLink to="/contact">
-      Contact
-    </NavLink>
-  </>
+  <SideNav>
+    <LogoContainer>
+      <LogoImg src={Logo} alt="logo" />
+    </LogoContainer>
+    <SideNavItem to="/">
+      <SideNavIcon className="fa fa-home"></SideNavIcon>
+      <p>
+        Home
+      </p>
+    </SideNavItem>
+    <SideNavItem to="/about">
+      <SideNavIcon className="fa fa-user"></SideNavIcon>
+      <p>
+        About
+      </p>
+    </SideNavItem>
+    <SideNavItem to="/projects">
+      <SideNavIcon className="fa fa-code"></SideNavIcon>
+      <p>
+        Projects
+      </p>
+    </SideNavItem>
+    <SideNavItem to="/contact">
+      <SideNavIcon className="fa fa-envelope"></SideNavIcon>
+      <p>
+        Contact
+      </p>
+    </SideNavItem>
+  </SideNav>
 )
 
 export default Navbar;
