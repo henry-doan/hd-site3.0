@@ -29,7 +29,32 @@ export const SideNavItem = styled(NavLink)`
   overflow: hidden;
   text-decoration: none;
   cursor: pointer;
-  font-size: 12px
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 30px;
+  padding-top: 10px;
+
+  &:hover {
+    background-color: black;
+    color: #00DCF9;
+  }
+`
+
+export const SideNavItemA = styled.a`
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+  color: white;
+  background-color: #222222;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
   line-height: 1.5;
   margin-top: 30px;
   padding-top: 10px;
@@ -41,7 +66,7 @@ export const SideNavItem = styled(NavLink)`
 `
 
 export const SideNavIcon = styled.i`
-  font-size: 36px !important;
+  font-size: 30px !important;
 `
 
 export const LogoImg = styled.img`

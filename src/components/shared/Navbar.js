@@ -1,4 +1,4 @@
-import { SideNav, SideNavItem, SideNavIcon, LogoImg, LogoContainer } from '../styled/navStyles';
+import { SideNav, SideNavItem, SideNavIcon, LogoImg, LogoContainer, SideNavItemA } from '../styled/navStyles';
 import Logo from '../../images/Logo.png';
 
 const Navbar = () => (
@@ -30,6 +30,18 @@ const Navbar = () => (
         Contact
       </p>
     </SideNavItem>
+    <SideNavItemA href="https://hd-blog-henry-doan.vercel.app/" target="_blank" rel="noopener noreferrer">
+      <SideNavIcon className="fa fa-terminal"></SideNavIcon>
+      <p>
+        Blog
+      </p>
+    </SideNavItemA>
+    <SideNavItemA href="https://hd-coding.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <SideNavIcon className="fa fa-youtube"></SideNavIcon>
+      <p>
+        Videos
+      </p>
+    </SideNavItemA>
   </SideNav>
 )
 
