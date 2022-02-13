@@ -1,7 +1,10 @@
+import Header from '../shared/Header';
+import SLC from '../../images/SLC.png';
 
 const Home = () => (
 	<>
-		Home Page
+		<Header img={SLC} text="Home Page" />
+	
 	</>
 )
 
