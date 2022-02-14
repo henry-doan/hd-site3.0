@@ -33,9 +33,9 @@ export const MainHeaderContainer = styled.div`
   
 export const MainHeaderText = styled.span`
   letter-spacing: 10px;
-  color: #fff!important;
-  background-color: #000!important;
-  padding: 12px 24px!important;
+  color: #fff;
+  background-color: #000;
+  padding: 12px 24px;
   text-align: center;
-  font-size: 24px!important;
+  font-size: 24px;
 `
