@@ -1,5 +1,6 @@
-import { AboutContainer, AboutLeft, AboutRight, AboutTitle, AboutMainIcon } from "../styled/aboutStyles";
+import { AboutContainer, AboutLeft, AboutRight, AboutTitle, AboutMainIcon, SkillsContainer, AvatarSec, AvatarImg, AvatarText, SkillsSec, DateSec, DateIcon, Line } from "../styled/aboutStyles";
 import ExpSection from './ExpSection';
+import Avatar from '../../images/hdAvatar.jpeg';
 
 const About = () => (
 	<>
@@ -57,7 +58,51 @@ const About = () => (
 				/>
 			</AboutLeft>
 			<AboutRight>
-				
+				<SkillsContainer>
+					<AvatarSec>
+						<AvatarImg src={Avatar} alt="avatar" />
+						<AvatarText>Henry Doan</AvatarText>
+					</AvatarSec>
+					<SkillsSec>
+						<DateSec>
+							<DateIcon className="fa fa-briefcase fa-fw"></DateIcon>
+							Full Stack Web Developer
+						</DateSec>
+						<DateSec>
+							<DateIcon className="fa fa-map-marker fa-fw"></DateIcon>
+							Sillicon Slopes
+						</DateSec>
+						<DateSec>
+							<DateIcon className="fa fa-envelope fa-fw"></DateIcon>
+							henrydoan96@email.com
+						</DateSec>
+						<Line></Line>
+						<AboutTitle>
+							<AboutMainIcon className="fa fa-code fa-fw"></AboutMainIcon>
+							Skills
+						</AboutTitle>
+						<ul>
+							<li>Git</li>
+						</ul>
+						<p>ReactJS</p>
+						<p>Ruby On Rails</p>
+						<p>Javascript (ES6 and Beyond)</p>
+						<p>SQL</p>
+						<p>NodeJS</p>
+						<p>Ruby</p>
+						<p>Command Line</p>
+						<p>HTMl / CSS</p>
+						<p>Git/Github</p>
+						<p>Heroku</p>
+						<p>Styled Components</p>
+						<p>PostgreSQL</p>
+						<p>React Router</p>
+						<p>Context API</p>
+						<p>.Net Core</p>
+						<p>Django</p>
+						<p>Python</p>
+					</SkillsSec>
+				</SkillsContainer>
 			</AboutRight>
 		</AboutContainer>
 	</>
