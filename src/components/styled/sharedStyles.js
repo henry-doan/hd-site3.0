@@ -39,3 +39,19 @@ export const MainHeaderText = styled.span`
   text-align: center;
   font-size: 24px;
 `
+
+export const LogoRound = styled.img`
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  background-color: white;
+  border-style: none;
+`
+
+export const SharedContainer = styled.div`
+  padding: 100px;
+`
