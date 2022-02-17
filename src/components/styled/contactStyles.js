@@ -59,27 +59,114 @@ export const ContactRight = styled.div`
 `
 
 export const CardContainer = styled.div`
-  height: 350px;
+  background-color: transparent;
   width: 600px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s;
-  transform-style: preserve-3d;
+  height: 350px;
+  perspective: 1000px;
+
+  &:hover {
+    cursor: pointer;
+  }
+`
+
+export const CardContainerInner = styled.div`
   position: relative;
-  background: white;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+
+  &:hover {
+    transform: rotateY(180deg);
+  }
 `
 
 export const FrontCard = styled.div`
-  z-index: 2;
-  transform: rotateY(0deg);
-  backface-visibility: hidden;
   display: flex;
   justify-content: center;
   align-items; center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 `
 
 export const FrontLogo = styled.img`
   width: 350px;
+`
+
+export const BackCard = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background: white;
+  display: flex;
+`
+
+export const BackName = styled.h1`
+  margin-top: 5%;
+  color: #00DCF9;
+  margin-left: 50px;
+  font-size: 36px;
+  margin-bottom: 5px;
+  font-weight: 500;
+`
+
+export const BackTitle = styled.p`
+  font-size: 16px;
+  padding-bottom: 15px;
+  width: 35%;
+  border-bottom: 2px solid #00DCF9;
+  color: #00DCF9;
+  margin-left: 50px;
+`
+
+export const BackText = styled.p`
+  color: #00DCF9;
+  margin-left: 50px;
+`
+
+export const BackSocial = styled.a`
+  position: relative;
+  color: #00DCF9;
+  font-size: 24px;
+  height: 30px;
+  width: 35px;
+  padding: 5px;
+  top: 30px;
+  left: 45px;
+  display: inline-block;
+  border: 2px solid #00DCF9;
+  margin: 0 5px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+
+  &:hover {
+    box-shadow: inset 0 50px 0 0 #00DCF9;
+    color: white;
+  }
+`
+
+export const BackLeft = styled.div`
+  flex: 20%;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+export const BackImg = styled.img`
+  width: 100px;
+`
+
+export const BackRight = styled.div`
+  flex: 80%;
 `
