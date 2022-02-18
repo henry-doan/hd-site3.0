@@ -54,6 +54,10 @@ export const LogoRound = styled.img`
 
 export const SharedContainer = styled.div`
   padding: 100px;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 `
 
 export const TopBtn = styled.span`

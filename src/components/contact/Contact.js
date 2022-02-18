@@ -1,20 +1,24 @@
 import ContactForm from "./ContactForm";
 import ContactCard from "./ContactCard";
-import { LogoRound, SharedContainer } from '../styled/sharedStyles';
+import { SharedContainer } from '../styled/sharedStyles';
+import Header from '../shared/Header';
 import { ContactContainer, ContactLeft, ContactRight } from "../styled/contactStyles";
+import Shards from '../../images/Shards.png';
 
 const Contact = () => (
-	<SharedContainer>
-		<LogoRound src="https://res.cloudinary.com/doan/image/upload/v1597276217/logo_vwe97g.png" alt='logo' />
-		<ContactContainer>
-			<ContactLeft>
-				<ContactCard />
-			</ContactLeft>
-			<ContactRight>
-				<ContactForm />
-			</ContactRight>
-		</ContactContainer>
-	</SharedContainer>
+	<>
+		<Header img={Shards} text="Contact" />
+		<SharedContainer>
+			<ContactContainer>
+				<ContactLeft>
+					<ContactCard />
+				</ContactLeft>
+				<ContactRight>
+					<ContactForm />
+				</ContactRight>
+			</ContactContainer>
+		</SharedContainer>
+	</>
 )
 
 export default Contact;
