@@ -4,7 +4,7 @@ import projs from './projectData';
 
 const Projects = () => (
 	<SharedContainer>
-		<ProjectsContainer>
+		{/* <ProjectsContainer>
 			<ProjCard to='/'>
 				<ProjInnerCard>
 					<ProjCardTitle>Grad Cap</ProjCardTitle>
@@ -31,7 +31,7 @@ const Projects = () => (
 					<ProjCardSubtitle>A resume builder</ProjCardSubtitle>
 				</ProjInnerCard>
 			</ProjCard>
-		</ProjectsContainer>
+		</ProjectsContainer> */}
 		<ProjectsContainer>	
 			{
 				projs.map( (proj) => 

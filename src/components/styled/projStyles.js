@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const ProjCard = styled(Link)`
-  flex: 50%;
+  flex: 40%;
   padding: 10px;
   margin: 20px;
   height: 300px;
@@ -12,7 +12,7 @@ export const ProjCard = styled(Link)`
   background-color: "#aaa";
   padding: 20px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   text-decoration: none;
   
   @media (max-width: 768px) {
@@ -53,9 +53,13 @@ export const ProjCardSubtitle = styled.p`
 `
 
 export const ProjectsContainer = styled.div`
+  // display: flex;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 
   @media (max-width: 768px) {
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    flex-direction: column;
   }
 `
