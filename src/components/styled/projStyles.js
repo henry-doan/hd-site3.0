@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const ProjCard = styled.div`
+export const ProjCard = styled(Link)`
   flex: 50%;
   padding: 10px;
   margin: 20px;
@@ -13,6 +13,7 @@ export const ProjCard = styled.div`
   padding: 20px;
   display: flex;
   align-items: flex-end;
+  text-decoration: none;
   
   @media (max-width: 768px) {
     flex: 100%;

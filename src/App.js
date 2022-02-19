@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
 import Navbar from './components/shared/Navbar';
 import { MainContainer } from './components/styled/sharedStyles';
+import ProjectDetails from './components/projects/ProjectDetails';
 
 const App = () => (
   <>
@@ -15,6 +16,7 @@ const App = () => (
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<ProjectDetails />} />
         <Route path="/*" element={<Home />} />
       </Routes>
     </MainContainer>
