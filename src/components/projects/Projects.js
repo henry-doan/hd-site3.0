@@ -4,42 +4,16 @@ import projs from './projectData';
 
 const Projects = () => (
 	<SharedContainer>
-		{/* <ProjectsContainer>
-			<ProjCard to='/'>
-				<ProjInnerCard>
-					<ProjCardTitle>Grad Cap</ProjCardTitle>
-					<ProjCardSubtitle>A resume builder</ProjCardSubtitle>
-				</ProjInnerCard>
-			</ProjCard>
-			<ProjCard to='/'>
-				<ProjInnerCard>
-					<ProjCardTitle>Grad Cap</ProjCardTitle>
-					<ProjCardSubtitle>A resume builder</ProjCardSubtitle>
-				</ProjInnerCard>
-			</ProjCard>
-		</ProjectsContainer>
-		<ProjectsContainer>
-			<ProjCard to='/'>
-				<ProjInnerCard>
-					<ProjCardTitle>Grad Cap</ProjCardTitle>
-					<ProjCardSubtitle>A resume builder</ProjCardSubtitle>
-				</ProjInnerCard>
-			</ProjCard>
-			<ProjCard to='/'>
-				<ProjInnerCard>
-					<ProjCardTitle>Grad Cap</ProjCardTitle>
-					<ProjCardSubtitle>A resume builder</ProjCardSubtitle>
-				</ProjInnerCard>
-			</ProjCard>
-		</ProjectsContainer> */}
 		<ProjectsContainer>	
 			{
 				projs.map( (proj) => 
 					<ProjCard 
 						to={`/projects/${proj.id}`} 
 						state={{ ...proj }}
+						img={proj.img}
+						className='projCard'
 					>
-						<ProjInnerCard>
+						<ProjInnerCard className='projInnerCard'>
 							<ProjCardTitle>{proj.name}</ProjCardTitle>
 							<ProjCardSubtitle>{proj.shortDesc}</ProjCardSubtitle>
 						</ProjInnerCard>
