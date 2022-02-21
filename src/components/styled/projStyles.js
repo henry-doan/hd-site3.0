@@ -72,3 +72,61 @@ export const ProjectsContainer = styled.div`
     flex-direction: column;
   }
 `
+
+export const ProjDetailContainer = styled.div`
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  // width: 1200px;
+  // border: 2px solid #00DCF9;
+  padding: 25px;
+
+  // color: #00DCF9;
+  color: white;
+  // text-align: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`
+
+export const ProjDescSection = styled.div`
+  flex: 60%;
+
+  @media (max-width: 768px) {
+    flex: 100%;
+  }
+`
+
+export const ProjSkillsSection = styled.div`
+  flex: 40%;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    flex: 100%;
+  }
+`
+
+export const ProjSkills = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 25px 0px 15px;
+  padding: 0px;
+  list-style: none;
+`
+
+export const ProjSkill = styled.li`
+  margin: 5px 20px;
+  // font-size: 1.25em;
+`
+
+export const ProjDesc = styled.p`
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 35px;
+`
