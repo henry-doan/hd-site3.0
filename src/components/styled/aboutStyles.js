@@ -76,11 +76,13 @@ export const CurrentDate = styled.span`
 
 export const Line = styled.hr`
   border: 0;
-  border-top: 1px solid #eee;
-  margin: 20px 0;
+  border-top: 1px solid #00DCF9;
+  margin: 40px auto;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  width: 500px;
+  opacity: 0.6;
 `
 
 export const SkillsContainer = styled.div`
@@ -117,4 +119,25 @@ export const AvatarText = styled.div`
 
 export const SkillsSec = styled.div`
   padding: 0.01em 16px;
+`
+
+export const ContactSecContainer = styled.div`
+  text-align: center;
+  padding: 0.01em 16px;
+  margin: 40px 0;
+`
+
+export const ContactSecPara = styled.p`
+  padding: 0.01em 450px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-bottom: 40px;
+
+  @media (max-width: 1400px) {
+    padding: 0.01em 250px;
+  }
+
+  @media (max-width: 1000px) {
+    padding: 0;
+  }
 `

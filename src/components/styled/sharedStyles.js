@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const MainContainer = styled.div`
@@ -115,8 +116,8 @@ export const MainBtn = styled.button`
 
   &:hover {
     color: white;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    background: #00DCF9;
+    box-shadow: 0 0 10px #00DCF9, 0 0 40px #00DCF9, 0 0 80px #00DCF9;
     transition-delay: 1s;
   }
 
@@ -159,9 +160,54 @@ export const HBtn = styled.a`
 
   &:hover {
     color: white;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    background: #00DCF9;
+    box-shadow: 0 0 10px #00DCF9, 0 0 40px #00DCF9, 0 0 80px #00DCF9;
     transition-delay: 1s;
+  }
+
+  &:hover ${TopBtn} {
+    left: 100%;
+    transition: 1s;
+  }
+
+  &:hover ${BottomBtn} {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  &:hover ${RtBtn} {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+
+  &:hover ${LtBtn} {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }
+`
+
+export const HLink = styled(Link)`
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  border: 1px solid #00DCF9;
+  margin: 0px 0px 5px 20px;
+
+  &:hover {
+    color: white;
+    background: #00dcf941;
+    box-shadow: 0 0 10px #00DCF9, 0 0 40px #00DCF9, 0 0 80px #00DCF9;
+    transition-delay: 1s;
+    border: 1px solid white;
   }
 
   &:hover ${TopBtn} {

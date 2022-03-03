@@ -13,12 +13,6 @@ const Navbar = () => (
           Home
         </p>
       </SideNavItem>
-      <SideNavItem to="/about">
-        <SideNavIcon className="fa fa-user"></SideNavIcon>
-        <p>
-          About
-        </p>
-      </SideNavItem>
       <SideNavItem to="/projects">
         <SideNavIcon className="fa fa-code"></SideNavIcon>
         <p>
