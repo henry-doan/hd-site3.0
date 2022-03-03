@@ -36,20 +36,19 @@ export const AboutMainIcon = styled.i`
 `
 
 export const WorkExpSection = styled.div`
-  color: #000;
-  background-color: #fff;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-  padding: 0.01em 16px;
+  color: white;
+  background-color: transparent;
+  // margin-bottom: 16px;
+  // box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  // padding: 0.01em 16px;
 `
 
 export const WorkExpSingle = styled.div`
-  padding: 0.01em 16px;
+  // padding: 0.01em 16px;
 `
 
 export const WorkTitle = styled.h5`
-  opacity: 0.60;
-  font-weight: 400;
+  font-weight: 900;
   margin: 10px 0;
   font-size: 18px;
 `

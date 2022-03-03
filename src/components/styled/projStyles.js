@@ -81,13 +81,8 @@ export const ProjDetailContainer = styled.div`
   max-width: 100%;
   margin: 20px;
   overflow: hidden;
-  // width: 1200px;
-  // border: 2px solid #00DCF9;
   padding: 25px;
-
-  // color: #00DCF9;
   color: white;
-  // text-align: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -122,7 +117,6 @@ export const ProjSkills = styled.ul`
 
 export const ProjSkill = styled.li`
   margin: 5px 20px;
-  // font-size: 1.25em;
 `
 
 export const ProjDesc = styled.p`

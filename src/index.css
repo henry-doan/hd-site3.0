@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* RC TABS START */
+
+.rc-tabs {
+  border: none !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rc-tabs-tab {
+  padding: 5px;
+  text-transform: capitalize;
+  background: transparent !important;
+}
+
+.rc-tabs-tab .rc-tabs-tab-btn {
+  font-weight: normal;
+}
+
+.rc-tabs-tab.rc-tabs-tab-active {
+  background: #00dcf941 !important;
+  color: #00DCF9;
+}
+
+.rc-tabs-ink-bar {
+  background: #00DCF9 !important;
+}
+
+.rc-tabs-content-holder {
+  padding: 10px;
+  background: #00dcf941;
+}

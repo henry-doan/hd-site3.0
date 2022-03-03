@@ -4,6 +4,7 @@ import projs from './projectData';
 
 const Projects = () => (
 	<SharedContainer>
+		<h1>Featured Projects</h1>
 		<ProjectsContainer>	
 			{
 				projs.map( (proj) => 
