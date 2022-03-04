@@ -4,6 +4,14 @@ export const AboutContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding: 0 5px;
+  max-width: 1000px;
+  margin: 0 auto;
+`
+
+export const AboutSec = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
 `
 
 export const AboutLeft = styled.div`
@@ -22,6 +30,10 @@ export const AboutRight = styled.div`
   }
 `
 
+export const AboutPara = styled.p`
+  padding: 0 20px;
+`
+
 export const AboutTitle = styled.h2`
   color: #00DCF9;
   padding: 0 16px;
@@ -38,9 +50,6 @@ export const AboutMainIcon = styled.i`
 export const WorkExpSection = styled.div`
   color: white;
   background-color: transparent;
-  // margin-bottom: 16px;
-  // box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-  // padding: 0.01em 16px;
 `
 
 export const WorkExpSingle = styled.div`
@@ -93,18 +102,41 @@ export const SkillsContainer = styled.div`
 `
   
 export const AvatarSec = styled.div` 
+  display: inline-block;
   position: relative;
-  display: block;
+
+  &:after {
+    z-index: -1;
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #00DCF9;
+    content: '';
+  }
+
+  @media (max-width: 1000px) {
+    &:after {
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border: none;
+    }
+  }
 `
 
 export const AvatarImg = styled.img`
   width: 100%;
   object-fit: cover;
-  object-position: 100% 0;
   height: 400px;
   vertical-align: middle;
-  border-style: none;
-  filter: opacity(60%);
+  z-index: 2;
+
+  @media (max-width: 1000px) {
+    border: 4px solid #00DCF9;
+  }
 `
 
 export const AvatarText = styled.div`
