@@ -11,7 +11,7 @@ const Home = () => (
 	<>
 		<Header img={SLC} text="Welcome!" />
 		<SharedContainer>
-			<h1>About me</h1>
+			<h1>A little about me</h1>
 			<About />
 			<Line />
 			<h1>Where I’ve Worked</h1>

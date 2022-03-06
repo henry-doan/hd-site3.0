@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
@@ -34,17 +35,18 @@ export const AboutPara = styled.p`
   padding: 0 20px;
 `
 
-export const AboutTitle = styled.h2`
+export const AboutTitle = styled.h3`
   color: #00DCF9;
   padding: 0 16px;
-  font-weight: 400;
+  font-weight: 900;
   margin: 10px 0;
 `
 
 export const AboutMainIcon = styled.i`
   color: #00DCF9;
   margin-right: 16px;
-  font-size: 36px;
+  font-size: 20px;
+  font-weight: 900;
 `
 
 export const WorkExpSection = styled.div`
@@ -64,7 +66,7 @@ export const WorkTitle = styled.h5`
 
 export const DateSec = styled.h4`
   color: #00DCF9;
-  font-weight: 400;
+  font-weight: 900;
   margin: 10px 0;
 `
 
@@ -97,7 +99,6 @@ export const Line = styled.hr`
 export const SkillsContainer = styled.div`
   color: #00DCF9;
   background-color: #fff;
-  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
   margin: 16px;
 `
   
@@ -127,25 +128,30 @@ export const AvatarSec = styled.div`
   }
 `
 
+export const AvatarImgContainer = styled.div`
+  background-color: #00DCF9;
+  width: 100%;
+  margin: 0 auto;
+`
+
 export const AvatarImg = styled.img`
   width: 100%;
   object-fit: cover;
   height: 400px;
   vertical-align: middle;
   z-index: 2;
+  filter: opacity(50%);
+  transition: opacity .25s linear;
 
   @media (max-width: 1000px) {
     border: 4px solid #00DCF9;
+    width: 98%;
   }
 `
 
-export const AvatarText = styled.div`
-  padding: 0.01em 16px;
-  position: absolute;
-  font-weight: 400;
+export const NameTitle = styled.h1`
+  font-weight: 900;
   font-size: 30px;
-  left: 0;
-  bottom: 0;
   color: white;
 `
 
@@ -171,5 +177,35 @@ export const ContactSecPara = styled.p`
 
   @media (max-width: 1000px) {
     padding: 0;
+  }
+`
+
+export const ContactSecTitle = styled.h1`
+  text-decoration: underline;
+  -webkit-text-decoration-color: #00DCF9; 
+  text-decoration-color: #00DCF9;
+  text-underline-offset: 10px;
+  margin-bottom: 30px;
+`
+
+export const AboutLink = styled(Link)`
+  color: #00DCF9;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: #00DCF9;
+  }
+`
+
+export const AboutOutSourceLink = styled.a`
+  color: #00DCF9;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: #00DCF9;
   }
 `
