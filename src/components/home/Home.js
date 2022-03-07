@@ -6,6 +6,7 @@ import About from './About';
 import Edu from './Edu';
 import Work from './Work';
 import ContactSec from './ContactSec';
+import Proj from './Proj';
 
 const Home = () => (
 	<>
@@ -17,7 +18,7 @@ const Home = () => (
 			<h1>Where I’ve Worked</h1>
 			<Work />
 			<Line />
-			<h1>Come check out my projects:</h1>
+			<Proj />
 			<Line />
 			<h1>My Education</h1>
 			<Edu />
