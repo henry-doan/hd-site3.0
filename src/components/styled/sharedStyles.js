@@ -21,7 +21,7 @@ export const MainHeader = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.75;
+  // opacity: 0.75;
   position: relative;
   display: flex;
   align-items: center;

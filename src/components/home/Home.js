@@ -1,5 +1,5 @@
 import Header from '../shared/Header';
-import SLC from '../../images/SLC.png';
+import Welcome from '../../images/lowpolyDevices.png';
 import { SharedContainer } from '../styled/sharedStyles';
 import { Line } from "../styled/aboutStyles";
 import About from './About';
@@ -10,7 +10,7 @@ import Proj from './Proj';
 
 const Home = () => (
 	<>
-		<Header img={SLC} text="Welcome!" />
+		<Header img={Welcome} />
 		<SharedContainer>
 			<h1>A little about me</h1>
 			<About />

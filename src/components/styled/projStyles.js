@@ -133,7 +133,7 @@ export const HomeProjContainer = styled.div`
 `
 
 export const HomeProjSec = styled.div`
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   padding: 0 5px;
 `
