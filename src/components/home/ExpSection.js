@@ -1,4 +1,4 @@
-import { WorkExpSection, WorkExpSingle, WorkTitle, DateSec, DateIcon, CurrentDate, Line } from "../styled/aboutStyles";
+import { WorkExpSection, WorkExpSingle, WorkTitle, DateSec, DateIcon, CurrentDate,  } from "../styled/aboutStyles";
 
 const ExpSection = ({ title, para, para2, para3, start, end, current, pic }) => (
   <WorkExpSection>
