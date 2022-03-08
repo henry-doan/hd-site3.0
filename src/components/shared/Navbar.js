@@ -25,6 +25,12 @@ const Navbar = () => (
           Contact
         </p>
       </SideNavItem>
+      <SideNavItem to="/resume">
+        <SideNavIcon className="fa fa-file-code-o"></SideNavIcon>
+        <p>
+          RESUMÉ
+        </p>
+      </SideNavItem>
       <SideNavItemA href="https://hd-blog-henry-doan.vercel.app/" target="_blank" rel="noopener noreferrer">
         <SideNavIcon className="fa fa-terminal"></SideNavIcon>
         <p>
@@ -43,10 +49,6 @@ const Navbar = () => (
         <SmallNavIcon className="fa fa-home"></SmallNavIcon>
         HOME
       </SmallNavItem>
-      <SmallNavItem to="/about">
-        <SmallNavIcon className="fa fa-user"></SmallNavIcon>
-        ABOUT
-      </SmallNavItem>
       <SmallNavItem to="/projects">
         <SmallNavIcon className="fa fa-code"></SmallNavIcon>
         PROJECTS
@@ -54,6 +56,10 @@ const Navbar = () => (
       <SmallNavItem to="/contact">
         <SmallNavIcon className="fa fa-envelope"></SmallNavIcon>
         CONTACT
+      </SmallNavItem>
+      <SmallNavItem to="/resume">
+        <SmallNavIcon className="fa fa-file-code-o"></SmallNavIcon>
+        RESUMÉ
       </SmallNavItem>
       <SmallNavItemA href="https://hd-blog-henry-doan.vercel.app/" target="_blank" rel="noopener noreferrer">
         <SmallNavIcon className="fa fa-terminal"></SmallNavIcon>

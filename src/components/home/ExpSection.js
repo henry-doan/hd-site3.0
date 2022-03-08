@@ -1,6 +1,6 @@
 import { WorkExpSection, WorkExpSingle, WorkTitle, DateSec, DateIcon, CurrentDate,  } from "../styled/aboutStyles";
 
-const ExpSection = ({ title, para, para2, para3, start, end, current, pic }) => (
+const ExpSection = ({ title, para, para2, para3, para4, start, end, current, pic }) => (
   <WorkExpSection>
     <WorkExpSingle>
       <WorkTitle>{title}</WorkTitle>
@@ -10,6 +10,7 @@ const ExpSection = ({ title, para, para2, para3, start, end, current, pic }) => 
       <p>{para}</p>
       { para2 ? <p>{para2}</p> : null }
       { para3 ? <p>{para3}</p> : null }
+      { para4 ? <p>{para4}</p> : null }
       { pic ? <DateIcon className="fa fa-camera fa-fw"></DateIcon> : null }
     </WorkExpSingle>
   </WorkExpSection>

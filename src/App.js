@@ -5,6 +5,7 @@ import Projects from './components/projects/Projects';
 import Navbar from './components/shared/Navbar';
 import { MainContainer } from './components/styled/sharedStyles';
 import ProjectDetails from './components/projects/ProjectDetails';
+import Footer from './components/shared/Footer';
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/*" element={<Home />} />
       </Routes>
     </MainContainer>
+    <Footer />
   </>
 )
 export default App;

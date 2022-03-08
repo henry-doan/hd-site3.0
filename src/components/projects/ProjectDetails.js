@@ -1,7 +1,7 @@
 import Header from '../shared/Header';
 import { useLocation } from 'react-router-dom';
-import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
-import { ProjDetailContainer, ProjDescSection, ProjSkillsSection, ProjSkills, ProjSkill, ProjDesc } from '../styled/projStyles';
+import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
+import { ProjDetailContainer, ProjDescSection, ProjSkillsSection, ProjSkills, ProjSkill, ProjDesc, HomeProjTitle } from '../styled/projStyles';
 
 const ProjectDetails = () => {
   const location = useLocation();
@@ -12,11 +12,11 @@ const ProjectDetails = () => {
       <Header img={img} text={name} />
       <ProjDetailContainer>
         <ProjDescSection>
-          <h1>Project Description</h1>
+          <HomeProjTitle>Project Description</HomeProjTitle>
           <ProjDesc>{desc}</ProjDesc>
         </ProjDescSection>
         <ProjSkillsSection>
-          <h2>Built With</h2>
+          <HomeSubTitle>Built With</HomeSubTitle>
           <ProjSkills>
             { stack.map( tool => <ProjSkill>{tool}</ProjSkill>)}
           </ProjSkills>

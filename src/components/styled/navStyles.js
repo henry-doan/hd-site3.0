@@ -93,9 +93,10 @@ export const SmallNav = styled.div`
   color: #fff;
   background-color: #000;
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
   opacity: 0.60;
   overflow: hidden;
+  font-weight: 800;
 
   @media (min-width: 768px) {
     display: none !important;

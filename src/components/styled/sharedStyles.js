@@ -26,6 +26,12 @@ export const MainHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    background-attachment: none;
+    // background-size: contain;
+    backgroung-position: center center;
+  }
 `
 
 export const MainHeaderContainer = styled.div`
@@ -232,4 +238,53 @@ export const HLink = styled(Link)`
     transition: 1s;
     transition-delay: 0.75s;
   }
+`
+
+export const HomeTitle = styled.h1`
+  text-decoration: underline;
+  -webkit-text-decoration-color: #00DCF9; 
+  text-decoration-color: #00DCF9;
+  text-underline-offset: 10px;
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+
+  @media (max-width: 768px) {
+    margin-left: 15px;
+  }
+`
+
+export const HomeSubTitle = styled.h2`
+  text-decoration: underline;
+  -webkit-text-decoration-color: #00DCF9; 
+  text-decoration-color: #00DCF9;
+  text-underline-offset: 10px;
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+`
+
+export const FooterContainer = styled.div`
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  background-color: #000;
+  text-align: right;
+  opacity: 0.40;
+  overflow: hidden;
+  font-weight: 800;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+`
+
+export const FooterText = styled.h1`
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  // text-align: center;
+  // @media (max-width: 768px) {
+  //   text-align: center;
+  // }
 `

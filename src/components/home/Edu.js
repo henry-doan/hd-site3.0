@@ -12,6 +12,7 @@ const Edu = () => (
         para="Computer Science Bachelor's Degree"
         para2="High Academic Excellence Spring 2021"
         para3="High Academic Excellence Summer 2021"
+        para4="High Academic Excellence Fall 2021"
         pic="https://images.unsplash.com/photo-1570610159825-ec5d3823660c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2833&q=80"
       />  
     </TabPane>

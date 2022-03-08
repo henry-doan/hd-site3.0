@@ -1,6 +1,6 @@
 import Header from '../shared/Header';
 import Welcome from '../../images/lowpolyDevices.png';
-import { SharedContainer } from '../styled/sharedStyles';
+import { SharedContainer, HomeTitle } from '../styled/sharedStyles';
 import { Line } from "../styled/aboutStyles";
 import About from './About';
 import Edu from './Edu';
@@ -12,18 +12,19 @@ const Home = () => (
 	<>
 		<Header img={Welcome} />
 		<SharedContainer>
-			<h1>A little about me</h1>
+			<HomeTitle>A Little About Me ...</HomeTitle>
 			<About />
 			<Line />
-			<h1>Where I’ve Worked</h1>
+			<HomeTitle>Where I’ve Worked</HomeTitle>
 			<Work />
 			<Line />
 			<Proj />
 			<Line />
-			<h1>My Education</h1>
+			<HomeTitle>My Education</HomeTitle>
 			<Edu />
 			<Line />
 			<ContactSec />
+			<Line />
 		</SharedContainer>
 	</>
 )

@@ -1,10 +1,10 @@
-import { ProjCard, ProjCardTitle, ProjInnerCard, ProjCardSubtitle, ProjectsContainer } from '../styled/projStyles';
+import { ProjCard, ProjCardTitle, ProjInnerCard, ProjCardSubtitle, ProjectsContainer, HomeProjTitle } from '../styled/projStyles';
 import { SharedContainer } from '../styled/sharedStyles';
 import projs from './projectData';
 
 const Projects = () => (
 	<SharedContainer>
-		<h1>Featured Projects</h1>
+		<HomeProjTitle>Featured Projects</HomeProjTitle>
 		<ProjectsContainer>	
 			{
 				projs.map( (proj) => 

@@ -159,6 +159,12 @@ export const Rect = styled.div`
   width: 350px;
   height: 250px;
   position: absolute;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+  }
 `
 
 export const RectOne = styled(Rect)`

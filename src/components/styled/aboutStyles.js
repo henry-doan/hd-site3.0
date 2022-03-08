@@ -88,12 +88,16 @@ export const CurrentDate = styled.span`
 export const Line = styled.hr`
   border: 0;
   border-top: 1px solid #00DCF9;
-  margin: 40px auto;
+  margin: 150px auto;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
   width: 500px;
   opacity: 0.6;
+
+  @media (max-width: 768px) {
+    width: 250px;
+  }
 `
 
 export const SkillsContainer = styled.div`

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, ContactTextInput, ContactTextArea } from '../styled/contactStyles';
-import { MainBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
+import { MainBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
 
 const ContactForm = () => {
   const [contact, setContact] = useState({ from_name: '', reply_to: '', message_html: '' })
@@ -32,7 +32,7 @@ const ContactForm = () => {
 
   return(
     <Form onSubmit={handleSubmit}>
-      <h2>Shoot Me A Message!</h2>
+      <HomeSubTitle>Shoot Me A Message!</HomeSubTitle>
       <ContactTextInput 
         name='from_name'
         value={contact.from_name}

@@ -67,6 +67,13 @@ export const CardContainer = styled.div`
   &:hover {
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    margin: 0 auto;
+  }
 `
 
 export const CardContainerInner = styled.div`
@@ -95,6 +102,10 @@ export const FrontCard = styled.div`
 
 export const FrontLogo = styled.img`
   width: 350px;
+
+  @media (max-width: 768px) {
+    width: 250px;
+  }
 `
 
 export const BackCard = styled.div`
@@ -115,6 +126,12 @@ export const BackName = styled.h1`
   font-size: 36px;
   margin-bottom: 5px;
   font-weight: 500;
+
+  @media (max-width: 768px) {
+    margin-left: 25px;
+    margin-bottom: 3px;
+    font-size: 16px;
+  }
 `
 
 export const BackTitle = styled.p`
@@ -124,11 +141,23 @@ export const BackTitle = styled.p`
   border-bottom: 2px solid #00DCF9;
   color: #00DCF9;
   margin-left: 50px;
+
+  @media (max-width: 768px) {
+    margin-left: 25px;
+    font-size: 12px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00DCF9;
+  }
 `
 
 export const BackText = styled.p`
   color: #00DCF9;
   margin-left: 50px;
+
+  @media (max-width: 768px) {
+    margin-left: 25px;
+    font-size: 12px;
+  }
 `
 
 export const BackSocial = styled.a`
@@ -152,6 +181,15 @@ export const BackSocial = styled.a`
   &:hover {
     box-shadow: inset 0 50px 0 0 #00DCF9;
     color: white;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    height: 20px;
+    width: 25px;
+    padding: 2px;
+    top: 20px;
+    left: 35px;
   }
 `
 

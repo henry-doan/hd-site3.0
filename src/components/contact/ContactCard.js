@@ -1,9 +1,10 @@
 import { CardContainer, FrontCard, FrontLogo, BackCard, BackTitle, BackName, CardContainerInner, BackText, BackSocial, BackLeft, BackRight, BackImg } from '../styled/contactStyles';
 import Logo from '../../images/Logo.png';
+import { HomeProjTitle } from '../styled/projStyles';
 
 const ContactCard = () => (
   <>
-    <h2>My Card</h2>
+    <HomeProjTitle>My Card</HomeProjTitle>
     <CardContainer className='hcard'>
       <CardContainerInner className='hcard-inner'>
         <FrontCard>
