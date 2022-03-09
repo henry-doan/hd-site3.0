@@ -82,8 +82,8 @@ export const CardContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     perspective: 1000px;
     margin: 0 auto;
   }
@@ -143,7 +143,7 @@ export const BackName = styled.h1`
   @media (max-width: 768px) {
     margin-left: 25px;
     margin-bottom: 3px;
-    font-size: 16px;
+    font-size: 14px;
   }
 `
 
@@ -157,7 +157,7 @@ export const BackTitle = styled.p`
 
   @media (max-width: 768px) {
     margin-left: 25px;
-    font-size: 12px;
+    font-size: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #00DCF9;
   }
@@ -169,7 +169,7 @@ export const BackText = styled.p`
 
   @media (max-width: 768px) {
     margin-left: 25px;
-    font-size: 12px;
+    font-size: 10px;
   }
 `
 
@@ -202,7 +202,7 @@ export const BackSocial = styled.a`
     width: 25px;
     padding: 2px;
     top: 20px;
-    left: 35px;
+    left: 30px;
   }
 `
 
@@ -220,4 +220,14 @@ export const BackImg = styled.img`
 
 export const BackRight = styled.div`
   flex: 80%;
+`
+
+export const TYContainer = styled.div`
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+`
+
+export const TYPic = styled.img`
+  border-radius: 500rem;
 `

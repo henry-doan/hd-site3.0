@@ -2,10 +2,13 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, ContactTextInput, ContactTextArea } from '../styled/contactStyles';
 import { MainBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
+import { useNavigate } from 'react-router-dom';
 
 const ContactForm = () => {
   const [contact, setContact] = useState({ from_name: '', reply_to: '', message_html: '' })
   
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -25,9 +28,9 @@ const ContactForm = () => {
       .then((result) => {
           console.log(result.text);
       }, (error) => {
-          debugger
           console.log(error.text);
       });
+    navigate('/thank-you')
     setContact({ from_name: '', reply_to: '', message_html: ''})
   }
 

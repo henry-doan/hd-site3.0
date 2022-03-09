@@ -6,6 +6,7 @@ import Navbar from './components/shared/Navbar';
 import { MainContainer } from './components/styled/sharedStyles';
 import ProjectDetails from './components/projects/ProjectDetails';
 import Footer from './components/shared/Footer';
+import ThankYou from './components/contact/ThankYou';
 
 const App = () => (
   <>
@@ -16,6 +17,7 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetails />} />
+        <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/*" element={<Home />} />
       </Routes>
     </MainContainer>
