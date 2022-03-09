@@ -3,16 +3,18 @@ import styled from "styled-components";
 export const Form = styled.form`
   width: 500px;
   height: 600px;
-  // background: white;
   border-radius: 8px;
   margin: 0 auto;
   padding: 20px 30px;
-  // max-width: calc(100vw - 40px);
   box-sizing: border-box;
   font-family: 'Montserrat',sans-serif;
   position: relative;
   display: block;
   text-align: center;
+  
+  @media (max-width: 768px) {
+    width: 350px;
+  }
 `
 
 export const ContactTextInput = styled.input`
