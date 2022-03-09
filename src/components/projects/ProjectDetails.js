@@ -36,13 +36,20 @@ const ProjectDetails = () => {
             <LtBtn></LtBtn>
             Go To Site
           </HBtn>
-          <HBtn href={github} target="_blank" el="noopener noreferrer">
-            <TopBtn></TopBtn>
-            <RtBtn></RtBtn>
-            <BottomBtn></BottomBtn>
-            <LtBtn></LtBtn>
-            Github
-          </HBtn> 
+          {/* Todo have a page to say the github is private */}
+          { 
+            github ?
+            <HBtn href={github} target="_blank" el="noopener noreferrer">
+              <TopBtn></TopBtn>
+              <RtBtn></RtBtn>
+              <BottomBtn></BottomBtn>
+              <LtBtn></LtBtn>
+              Github
+            </HBtn> 
+            :
+            null
+          }
+          
         </ProjSkillsSection>
       </ProjDetailContainer>
     </>

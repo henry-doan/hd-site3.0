@@ -43,7 +43,7 @@ const projs = [
     id: 3,
     name: 'Grad Cap',
     img: "https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
-    desc: "This is a freelance job that was complete from the small upcomming company of Grad Cap LLC. A resume consultation company to help individuals with their resumes and tips on landing a long comming career. This project I worked hand and hand with the client to create the dream site and tools they would need to run the company. ...",
+    desc: "This is a freelance job that was complete from the small upcomming company of Grad Cap LLC. A resume consultation company to help individuals with their resumes and tips on landing a long comming career. This is an all in one tool to manage applications and inputs and display the data in a graphic interface for analysis purposes. Also within the app, workers can use the site for client management and be able to take notes and pass them along in the business processes. I built out the whole application from backend to frontend, worked hand and hand with the client to create the dream site and tools they would need to run the company. This project really expanded my horizons of implementing multiple third party APIs, such as Braintree for payment and processing, Recharts for graphs and analytic data, and making my own API to fit the client needs. This site is in the process of getting revamp into a new version and technologies.",
     shortDesc: "Resume Consultation",
     github: "",
     liveSite: "www.grad-cap.com",
@@ -55,6 +55,8 @@ const projs = [
       "Redux",
       "Devise",
       "React Router",
+      "Braintree",
+      "Recharts",
     ]
   },
   {
@@ -92,7 +94,7 @@ const projs = [
     id: 6,
     name: 'HD Blog',
     img: "https://res.cloudinary.com/doan/image/upload/v1645327660/hd-site/hd-blog.png",
-    desc: "This project started off as a learning project for learning NextJS and the Vercel technology, but then saw it was a good platform to host all of the blogs post I've created over the years. This blog really helped me to take confusing topics and explain them in a less confusing way for not only for myself to understand but others as well...",
+    desc: "This project started off as a learning project for learning NextJS and the Vercel technology, but then saw it was a good platform to host all of the blogs post I've created over the years. This blog really helped me to take confusing topics and explain them in a less confusing way for not only for myself to understand but others as well. The content is all content I curated for anyone who is starting off into programming and for tools that have been updated. I would often post a new blog post every time something new and exciting shows up or if there are some items I want to pass to others.",
     shortDesc: "Personal Coding Content Blog",
     github: "https://github.com/henry-doan/hd-blog",
     liveSite: "https://hd-blog-henry-doan.vercel.app/",
