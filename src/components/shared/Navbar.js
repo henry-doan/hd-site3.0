@@ -25,12 +25,12 @@ const Navbar = () => (
           Contact
         </p>
       </SideNavItem>
-      <SideNavItem to="/resume">
+      <SideNavItemA href="https://docs.google.com/document/d/1uV-iyxnuHtep7nX9MV4fet8STJEgL3JhbUGZNMtcZPA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
         <SideNavIcon className="fa fa-file-code-o"></SideNavIcon>
         <p>
           RESUMÉ
         </p>
-      </SideNavItem>
+      </SideNavItemA>
       <SideNavItemA href="https://hd-blog-henry-doan.vercel.app/" target="_blank" rel="noopener noreferrer">
         <SideNavIcon className="fa fa-terminal"></SideNavIcon>
         <p>
@@ -57,10 +57,10 @@ const Navbar = () => (
         <SmallNavIcon className="fa fa-envelope"></SmallNavIcon>
         CONTACT
       </SmallNavItem>
-      <SmallNavItem to="/resume">
+      <SmallNavItemA href="https://docs.google.com/document/d/1uV-iyxnuHtep7nX9MV4fet8STJEgL3JhbUGZNMtcZPA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
         <SmallNavIcon className="fa fa-file-code-o"></SmallNavIcon>
         RESUMÉ
-      </SmallNavItem>
+      </SmallNavItemA>
       <SmallNavItemA href="https://hd-blog-henry-doan.vercel.app/" target="_blank" rel="noopener noreferrer">
         <SmallNavIcon className="fa fa-terminal"></SmallNavIcon>
         BLOG
