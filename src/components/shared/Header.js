@@ -1,7 +1,7 @@
 import { MainHeader, MainHeaderContainer, MainHeaderText } from "../styled/sharedStyles";
 
-const Header = ({ img, text }) => (
-  <MainHeader img={img}>
+const Header = ({ img, text, mobileImg }) => (
+  <MainHeader img={img} mobileImg={ mobileImg ? mobileImg : img }>
     <MainHeaderContainer>
       { text ? <MainHeaderText>{text}</MainHeaderText> : null }
     </MainHeaderContainer>

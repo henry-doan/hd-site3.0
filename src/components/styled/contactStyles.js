@@ -24,6 +24,13 @@ export const ContactTextInput = styled.input`
   color: white;
   border-radius: 4px;
   margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    font-size: 14px;
+    padding: 20px;
+  }
+
 `
 
 export const ContactTextArea = styled.textarea`
@@ -35,6 +42,12 @@ export const ContactTextArea = styled.textarea`
   color: white;
   border-radius: 4px;
   margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    font-size: 14px;
+    padding: 20px;
+  }
 `
 
 export const ContactContainer = styled.div`

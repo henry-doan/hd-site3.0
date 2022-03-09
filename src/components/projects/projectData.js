@@ -93,7 +93,7 @@ const projs = [
     name: 'HD Blog',
     img: "https://res.cloudinary.com/doan/image/upload/v1645327660/hd-site/hd-blog.png",
     desc: "This project started off as a learning project for learning NextJS and the Vercel technology, but then saw it was a good platform to host all of the blogs post I've created over the years. This blog really helped me to take confusing topics and explain them in a less confusing way for not only for myself to understand but others as well...",
-    shortDesc: "Personal Blog",
+    shortDesc: "Personal Coding Content Blog",
     github: "https://github.com/henry-doan/hd-blog",
     liveSite: "https://hd-blog-henry-doan.vercel.app/",
     stack: [

@@ -55,6 +55,7 @@ const ContactForm = () => {
         placeholder='Message'
       >
       </ContactTextArea>
+      <br/>
       <MainBtn type='submit'>
         <TopBtn></TopBtn>
         <RtBtn></RtBtn>

@@ -21,15 +21,13 @@ export const MainHeader = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  // opacity: 0.75;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @media (max-width: 768px) {
-    background-attachment: none;
-    // background-size: contain;
+    background-image: url(${ props => props.mobileImg });
     backgroung-position: center center;
   }
 `
