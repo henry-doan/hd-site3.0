@@ -1,6 +1,7 @@
-import { AboutTitle, AboutMainIcon, AboutContainer, AvatarSec, AvatarImg, NameTitle, SkillsSec, DateSec, DateIcon, AboutSec, AboutLeft, AboutRight, AboutPara, AvatarImgContainer, AboutLink, AboutOutSourceLink } from "../styled/aboutStyles";
+import { AboutTitle, AboutMainIcon, AboutContainer, AvatarSec, AvatarImg, NameTitle, SkillsSec, DateSec, DateIcon, AboutSec, AboutLeft, AboutRight, AboutPara, AvatarImgContainer, AboutLink, AboutOutSourceLink, BtnContainer } from "../styled/aboutStyles";
 import Avatar from '../../images/hdAvatar.jpeg';
 import { ProjSkills, ProjSkill } from '../styled/projStyles';
+import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
 import skills from './Skills';
 
 const About = () => (
@@ -43,6 +44,15 @@ const About = () => (
         { skills.map( tool => <ProjSkill key={tool}>{tool}</ProjSkill>)}
       </ProjSkills>
     </SkillsSec>
+    <BtnContainer>
+      <HBtn href="https://github.com/henry-doan" target="_blank" el="noopener noreferrer">
+        <TopBtn></TopBtn>
+        <RtBtn></RtBtn>
+        <BottomBtn></BottomBtn>
+        <LtBtn></LtBtn>
+        Github
+      </HBtn> 
+    </BtnContainer>
   </AboutContainer>
 )
 

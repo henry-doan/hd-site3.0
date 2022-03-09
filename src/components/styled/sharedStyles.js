@@ -29,6 +29,7 @@ export const MainHeader = styled.div`
   @media (max-width: 768px) {
     background-image: url(${ props => props.mobileImg });
     backgroung-position: center center;
+    background-size: contain;
   }
 `
 

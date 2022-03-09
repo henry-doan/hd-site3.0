@@ -213,3 +213,7 @@ export const AboutOutSourceLink = styled.a`
     text-decoration-color: #00DCF9;
   }
 `
+
+export const BtnContainer = styled.div`
+  margin: 50px auto 0 auto;
+`

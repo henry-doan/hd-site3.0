@@ -93,7 +93,7 @@ export const SmallNav = styled.div`
   color: #fff;
   background-color: #000;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   opacity: 0.60;
   overflow: hidden;
   font-weight: 800;
