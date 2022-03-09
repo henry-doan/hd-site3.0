@@ -13,6 +13,7 @@ const Projects = () => (
 						state={{ ...proj }}
 						img={proj.img}
 						className='projCard'
+						key={proj.id}
 					>
 						<ProjInnerCard className='projInnerCard'>
 							<ProjCardTitle>{proj.name}</ProjCardTitle>

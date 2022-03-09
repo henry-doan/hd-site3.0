@@ -25,6 +25,7 @@ const ContactForm = () => {
       .then((result) => {
           console.log(result.text);
       }, (error) => {
+          debugger
           console.log(error.text);
       });
     setContact({ from_name: '', reply_to: '', message_html: ''})

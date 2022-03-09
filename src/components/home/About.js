@@ -40,7 +40,7 @@ const About = () => (
         Skills
       </AboutTitle>
       <ProjSkills>
-        { skills.map( tool => <ProjSkill>{tool}</ProjSkill>)}
+        { skills.map( tool => <ProjSkill key={tool}>{tool}</ProjSkill>)}
       </ProjSkills>
     </SkillsSec>
   </AboutContainer>

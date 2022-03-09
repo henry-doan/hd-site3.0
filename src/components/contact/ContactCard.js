@@ -27,19 +27,19 @@ const ContactCard = () => (
               <i className='fa fa-mouse-pointer'></i> www.hd-coding.com
             </BackText>
             <BackSocial href="https://github.com/henry-doan/" target="_blank" el="noopener noreferrer">
-              <i class="fa fa-github"></i>
+              <i className="fa fa-github"></i>
             </BackSocial>
             <BackSocial href="https://www.youtube.com/channel/UC1R4U_9mDr3T240TKoCOUFw" target="_blank" el="noopener noreferrer">
-              <i class="fa fa-youtube-play"></i>
+              <i className="fa fa-youtube-play"></i>
             </BackSocial>
             <BackSocial href="https://www.linkedin.com/in/henrydoan/" target="_blank" el="noopener noreferrer">
-              <i class="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </BackSocial>
             <BackSocial href="https://twitter.com/@nightwing819/" target="_blank" el="noopener noreferrer">
-              <i class="fa fa-twitter"></i>
+              <i className="fa fa-twitter"></i>
             </BackSocial>
             <BackSocial href="https://www.instagram.com/hdcoding/" target="_blank" el="noopener noreferrer">
-              <i class="fa fa-instagram"></i>
+              <i className="fa fa-instagram"></i>
             </BackSocial>
           </BackRight>
         </BackCard>
