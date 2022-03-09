@@ -17,19 +17,20 @@ export const MainContainer = styled.div`
 export const MainHeader = styled.div`
   background-image: url(${ props => props.img });
   min-height: 80%;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  // position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @media (max-width: 768px) {
     background-image: url(${ props => props.mobileImg });
-    backgroung-position: center center;
-    background-size: contain;
+    background-size: 100%;
+    // backgroung-position: center center;
+    // background-size: contain;
   }
 `
 
