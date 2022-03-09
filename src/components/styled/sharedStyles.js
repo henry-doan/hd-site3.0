@@ -27,7 +27,7 @@ export const MainHeader = styled.div`
   justify-content: center;
 
   @media (max-width: 768px) {
-    // background-image: url(${ props => props.mobileImg });
+    background-image: url(${ props => props.mobileImg });
     background-size: 100%;
     // backgroung-position: center center;
     // background-size: contain;
