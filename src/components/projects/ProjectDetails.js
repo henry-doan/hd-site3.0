@@ -2,6 +2,7 @@ import Header from '../shared/Header';
 import { useLocation } from 'react-router-dom';
 import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
 import { ProjDetailContainer, ProjDescSection, ProjSkillsSection, ProjSkills, ProjSkill, ProjDesc, HomeProjTitle } from '../styled/projStyles';
+import { Flip, Fade } from 'react-reveal';
 
 const ProjectDetails = () => {
   const location = useLocation();
@@ -12,14 +13,22 @@ const ProjectDetails = () => {
       <Header img={img} text={name} />
       <ProjDetailContainer>
         <ProjDescSection>
-          <HomeProjTitle>Project Description</HomeProjTitle>
-          <ProjDesc>{desc}</ProjDesc>
+          <Flip top>
+            <HomeProjTitle>Project Description</HomeProjTitle>
+          </Flip>
+          <Fade left>
+            <ProjDesc>{desc}</ProjDesc>
+          </Fade>
         </ProjDescSection>
         <ProjSkillsSection>
-          <HomeSubTitle>Built With</HomeSubTitle>
-          <ProjSkills>
-            { stack.map( tool => <ProjSkill>{tool}</ProjSkill>)}
-          </ProjSkills>
+          <Flip top>
+            <HomeSubTitle>Built With</HomeSubTitle>
+          </Flip>
+          <Fade right>
+            <ProjSkills>
+              { stack.map( tool => <ProjSkill>{tool}</ProjSkill>)}
+            </ProjSkills>
+          </Fade>
           <HBtn href={liveSite} target="_blank" el="noopener noreferrer">
             <TopBtn></TopBtn>
             <RtBtn></RtBtn>
@@ -33,7 +42,7 @@ const ProjectDetails = () => {
             <BottomBtn></BottomBtn>
             <LtBtn></LtBtn>
             Github
-          </HBtn>
+          </HBtn> 
         </ProjSkillsSection>
       </ProjDetailContainer>
     </>

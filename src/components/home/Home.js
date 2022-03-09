@@ -8,23 +8,40 @@ import Edu from './Edu';
 import Work from './Work';
 import ContactSec from './ContactSec';
 import Proj from './Proj';
+import { Flip, Fade, Slide } from 'react-reveal';
 
 const Home = () => (
 	<>
 		<Header img={Welcome} mobileImg={WelcomeMobile} />
 		<SharedContainer>
-			<HomeTitle>A Little About Me ...</HomeTitle>
-			<About />
+			<Flip top>
+				<HomeTitle>A Little About Me ...</HomeTitle>
+			</Flip>
+			<Fade right>
+				<About />
+			</Fade>
 			<Line />
-			<HomeTitle>Where I’ve Worked</HomeTitle>
-			<Work />
+			<Flip top>
+				<HomeTitle>Where I’ve Worked</HomeTitle>
+			</Flip>
+			<Fade left>
+				<Work />
+			</Fade>
 			<Line />
-			<Proj />
+			<Slide bottom>
+				<Proj />
+			</Slide>
 			<Line />
-			<HomeTitle>My Education</HomeTitle>
-			<Edu />
+			<Flip top>
+				<HomeTitle>My Education</HomeTitle>
+			</Flip>
+			<Fade right>
+				<Edu />	
+			</Fade>
 			<Line />
-			<ContactSec />
+			<Fade bottom>
+				<ContactSec />
+			</Fade>
 			<Line />
 		</SharedContainer>
 	</>

@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { Form, ContactTextInput, ContactTextArea } from '../styled/contactStyles';
 import { MainBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
 import { useNavigate } from 'react-router-dom';
+import { Flip, Fade } from 'react-reveal';
 
 const ContactForm = () => {
   const [contact, setContact] = useState({ from_name: '', reply_to: '', message_html: '' })
@@ -36,37 +37,46 @@ const ContactForm = () => {
 
   return(
     <Form onSubmit={handleSubmit}>
-      <HomeSubTitle>Shoot Me A Message!</HomeSubTitle>
-      <ContactTextInput 
-        name='from_name'
-        value={contact.from_name}
-        onChange={(e) =>  setContact({ ...contact, from_name: e.target.value })}
-        required 
-        placeholder='Name'
-      />
-      <ContactTextInput 
-        name='reply_to'
-        value={contact.reply_to}
-        onChange={(e) =>  setContact({ ...contact, reply_to: e.target.value })}
-        required 
-        placeholder='Email'
-      />
-      <ContactTextArea 
-        name='message_html'
-        value={contact.message_html}
-        onChange={(e) =>  setContact({ ...contact, message_html: e.target.value })}
-        required 
-        placeholder='Message'
-      >
-      </ContactTextArea>
-      <br/>
-      <MainBtn type='submit'>
-        <TopBtn></TopBtn>
-        <RtBtn></RtBtn>
-        <BottomBtn></BottomBtn>
-        <LtBtn></LtBtn>
-        Send
-      </MainBtn>
+      <Flip top>
+        <HomeSubTitle>Shoot Me A Message!</HomeSubTitle>
+      </Flip>
+      <Fade bottom>
+        <ContactTextInput 
+          name='from_name'
+          value={contact.from_name}
+          onChange={(e) =>  setContact({ ...contact, from_name: e.target.value })}
+          required 
+          placeholder='Name'
+        />
+      </Fade>
+      <Fade bottom>
+        <ContactTextInput 
+          name='reply_to'
+          value={contact.reply_to}
+          onChange={(e) =>  setContact({ ...contact, reply_to: e.target.value })}
+          required 
+          placeholder='Email'
+        />
+      </Fade>
+      <Fade bottom>
+        <ContactTextArea 
+          name='message_html'
+          value={contact.message_html}
+          onChange={(e) =>  setContact({ ...contact, message_html: e.target.value })}
+          required 
+          placeholder='Message'
+        >
+        </ContactTextArea>
+      </Fade>
+      <Fade bottom>
+        <MainBtn type='submit'>
+          <TopBtn></TopBtn>
+          <RtBtn></RtBtn>
+          <BottomBtn></BottomBtn>
+          <LtBtn></LtBtn>
+          Send
+        </MainBtn>
+      </Fade>
     </Form>
   )
 }

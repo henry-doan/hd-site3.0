@@ -1,12 +1,15 @@
 import { CardContainer, FrontCard, FrontLogo, BackCard, BackTitle, BackName, CardContainerInner, BackText, BackSocial, BackLeft, BackRight, BackImg } from '../styled/contactStyles';
 import Logo from '../../images/Logo.png';
 import { HomeProjTitle } from '../styled/projStyles';
+import { Flip } from 'react-reveal';
 
 const ContactCard = () => (
   <>
-    <HomeProjTitle>My Card</HomeProjTitle>
-    <CardContainer className='hcard'>
-      <CardContainerInner className='hcard-inner'>
+    <Flip top>
+      <HomeProjTitle>My Card</HomeProjTitle>
+    </Flip>
+    <CardContainer>
+      <CardContainerInner>
         <FrontCard>
           <FrontLogo src="https://res.cloudinary.com/doan/image/upload/v1597276217/logo_vwe97g.png" alt='logo' />
         </FrontCard>
