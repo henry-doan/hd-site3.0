@@ -1,12 +1,11 @@
 import Logo from '../../images/LogoSquare.png'
-import { TYContainer, TYPic } from '../styled/contactStyles';
-import { HLink, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
+import { HLink, TopBtn, RtBtn, BottomBtn, LtBtn, ExtraPgContainer, ExtraPgPic } from '../styled/sharedStyles';
 import { Slide } from 'react-reveal';
 
 const ThankYou = () => (
-  <TYContainer>
+  <ExtraPgContainer>
     <Slide top>
-      <TYPic src={Logo} alt='logo'/>
+      <ExtraPgPic src={Logo} alt='logo'/>
     </Slide>
     <Slide bottom>
       <h1>Thank You For Your Submission</h1>
@@ -23,7 +22,7 @@ const ThankYou = () => (
         Take Me Home
       </HLink>
     </Slide>
-  </TYContainer>
+  </ExtraPgContainer>
 )
 
 export default ThankYou;

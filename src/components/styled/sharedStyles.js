@@ -205,12 +205,12 @@ export const HLink = styled(Link)`
   text-decoration: none;
   overflow: hidden;
   transition: 0.2s;
-  border: 1px solid #00DCF9;
+  border: 1px solid ${ props => props.primary ? "white" : "#00DCF9" };
   margin: 0px 0px 5px 20px;
 
   &:hover {
     color: white;
-    background: #00dcf941;
+    background: ${ props => props.primary ? "#00DCF9" : "#00dcf941" };
     box-shadow: 0 0 10px #00DCF9, 0 0 40px #00DCF9, 0 0 80px #00DCF9;
     transition-delay: 1s;
     border: 1px solid white;
@@ -283,8 +283,14 @@ export const FooterText = styled.h1`
   font-size: 18px;
   padding: 5px;
   margin: 5px;
-  // text-align: center;
-  // @media (max-width: 768px) {
-  //   text-align: center;
-  // }
+`
+
+export const ExtraPgContainer = styled.div`
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+`
+
+export const ExtraPgPic = styled.img`
+  border-radius: 500rem;
 `

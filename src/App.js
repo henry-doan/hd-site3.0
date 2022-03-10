@@ -7,6 +7,7 @@ import { MainContainer } from './components/styled/sharedStyles';
 import ProjectDetails from './components/projects/ProjectDetails';
 import Footer from './components/shared/Footer';
 import ThankYou from './components/contact/ThankYou';
+import PrivateProject from './components/projects/PrivateProject';
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetails />} />
         <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/private-repo" element={<PrivateProject />} />
         <Route path="/*" element={<Home />} />
       </Routes>
     </MainContainer>

@@ -1,6 +1,6 @@
 import Header from '../shared/Header';
 import { useLocation } from 'react-router-dom';
-import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
+import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle, HLink } from '../styled/sharedStyles';
 import { ProjDetailContainer, ProjDescSection, ProjSkillsSection, ProjSkills, ProjSkill, ProjDesc, HomeProjTitle } from '../styled/projStyles';
 import { Flip, Fade } from 'react-reveal';
 
@@ -36,7 +36,6 @@ const ProjectDetails = () => {
             <LtBtn></LtBtn>
             Go To Site
           </HBtn>
-          {/* Todo have a page to say the github is private */}
           { 
             github ?
             <HBtn href={github} target="_blank" el="noopener noreferrer">
@@ -47,9 +46,14 @@ const ProjectDetails = () => {
               Github
             </HBtn> 
             :
-            null
+            <HLink to="/private-repo" primary>
+              <TopBtn></TopBtn>
+              <RtBtn></RtBtn>
+              <BottomBtn></BottomBtn>
+              <LtBtn></LtBtn>
+              Github
+            </HLink>
           }
-          
         </ProjSkillsSection>
       </ProjDetailContainer>
     </>

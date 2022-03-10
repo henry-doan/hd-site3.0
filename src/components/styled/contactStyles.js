@@ -223,13 +223,3 @@ export const BackImg = styled.img`
 export const BackRight = styled.div`
   flex: 80%;
 `
-
-export const TYContainer = styled.div`
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 200px;
-`
-
-export const TYPic = styled.img`
-  border-radius: 500rem;
-`
