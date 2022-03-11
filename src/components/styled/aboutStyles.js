@@ -219,5 +219,5 @@ export const BtnContainer = styled.div`
 `
 
 export const EduPic = styled.img`
-  width: 400px;
+  width: 300px;
 `
