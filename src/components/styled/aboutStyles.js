@@ -217,3 +217,7 @@ export const AboutOutSourceLink = styled.a`
 export const BtnContainer = styled.div`
   margin: 50px auto 0 auto;
 `
+
+export const EduPic = styled.img`
+  width: 400px;
+`
