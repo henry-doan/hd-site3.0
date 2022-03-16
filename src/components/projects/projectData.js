@@ -42,11 +42,11 @@ const projs = [
   {
     id: 3,
     name: 'Grad Cap',
-    img: "https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
+    img: "https://res.cloudinary.com/doan/image/upload/v1647466330/hd-site/grad.png",
     desc: "This is a freelance job that was complete from the small upcomming company of Grad Cap LLC. A resume consultation company to help individuals with their resumes and tips on landing a long comming career. This is an all in one tool to manage applications and inputs and display the data in a graphic interface for analysis purposes. Also within the app, workers can use the site for client management and be able to take notes and pass them along in the business processes. I built out the whole application from backend to frontend, worked hand and hand with the client to create the dream site and tools they would need to run the company. This project really expanded my horizons of implementing multiple third party APIs, such as Braintree for payment and processing, Recharts for graphs and analytic data, and making my own API to fit the client needs. This site is in the process of getting revamp into a new version and technologies.",
     shortDesc: "Resume Consultation",
     github: "",
-    liveSite: "www.grad-cap.com",
+    liveSite: "https://grad-cap-relaunch.herokuapp.com/",
     stack: [
       "Ruby on Rails",
       "React JS",
