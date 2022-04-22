@@ -27,7 +27,7 @@ const ContactCard = () => (
               <i className='fa fa-envelope'></i> henrydoan96@gmail.com
             </BackText>
             <BackText>
-              <i className='fa fa-mouse-pointer'></i> www.hd-coding.com
+              <i className='fa fa-mouse-pointer'></i> https://henry-doan.netlify.app/
             </BackText>
             <BackSocial href="https://github.com/henry-doan/" target="_blank" el="noopener noreferrer">
               <i className="fa fa-github"></i>
