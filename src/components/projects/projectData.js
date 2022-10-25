@@ -124,7 +124,7 @@ const projs = [
     desc: "Habitat AMS is a animal manage system for zoos, aquariums and other animal sanctuaries to schedule events for the animals and information on each animal of their insights. This tool is currently used with the Hogle Zoo, Virginia Living Museum and are beta tested out at other zoos. I worked on the landing site of where clients can get a overview of the product and be able to contact and request a demo that is designed to spec off of the wireframe from the client. I am also working the client tools to add features and fixes that is discovered with the beta users.",
     shortDesc: "Animal management system",
     github: "",
-    liveSite: "https://www.habitatams.com/",
+    liveSite: "https://habitatams.netlify.app/",
     stack: [
       "ReactJS",
       "Styled Components",
