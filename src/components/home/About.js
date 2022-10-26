@@ -30,7 +30,11 @@ const About = () => (
       <AboutRight>
         <AvatarSec>
           <AvatarImgContainer>
-            <AvatarImg src={Avatar} alt="avatar" />
+            <AvatarImg
+              src={Avatar} 
+              alt="avatar" 
+              effect="blur"
+            />
           </AvatarImgContainer>
         </AvatarSec>
       </AboutRight>

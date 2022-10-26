@@ -8,7 +8,11 @@ const Proj = () => (
       <RectTwo></RectTwo>
       <RectThree></RectThree>
       <RectFour>
-        <FeaturedProj src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" />
+        <FeaturedProj 
+          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" 
+          effect="blur"
+          alt='featured project'
+        />
       </RectFour>
     </HomeProjLeft>
     <HomeProjRight>

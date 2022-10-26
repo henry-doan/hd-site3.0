@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const MainContainer = styled.div`
   margin-left: 120px;
@@ -47,7 +48,7 @@ export const MainHeaderText = styled.span`
   font-size: 24px;
 `
 
-export const LogoRound = styled.img`
+export const LogoRound = styled(LazyLoadImage)`
   width: 300px;
   height: auto;
   margin-left: auto;
@@ -291,6 +292,6 @@ export const ExtraPgContainer = styled.div`
   padding-top: 200px;
 `
 
-export const ExtraPgPic = styled.img`
+export const ExtraPgPic = styled(LazyLoadImage)`
   border-radius: 500rem;
 `

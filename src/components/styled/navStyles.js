@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link, NavLink } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const SideNav = styled.nav`
   width: 120px;
@@ -73,7 +74,7 @@ export const SideNavIcon = styled.i`
   font-size: 30px !important;
 `
 
-export const LogoImg = styled.img`
+export const LogoImg = styled(LazyLoadImage)`
   width: 100%;
   vertical-align: middle;
   border-style: none;

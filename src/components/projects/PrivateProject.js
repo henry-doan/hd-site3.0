@@ -5,7 +5,11 @@ import { Slide } from 'react-reveal';
 const PrivateProject = () => (
   <ExtraPgContainer>
     <Slide top>
-      <ExtraPgPic src={Logo} alt='logo'/>
+      <ExtraPgPic 
+        src={Logo} 
+        alt='logo' 
+        effect="blur"
+      />
     </Slide>
     <Slide bottom>
       <h1>Sorry, This Project's Code Base Is Private Due To The Client's Request</h1>

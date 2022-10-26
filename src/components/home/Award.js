@@ -11,7 +11,11 @@ const Award = ({ para, pic }) => {
       <p>{para}</p>
       <DateIcon className="fa fa-camera fa-fw" onClick={() => setOpen(true)}></DateIcon>
       <Modal open={open} onClose={() => setOpen(false)} center>
-        <EduPic src={pic} alt={para} />
+        <EduPic 
+          src={pic} 
+          alt={para} 
+          effect="blur"
+        />
       </Modal>
     </>
   )

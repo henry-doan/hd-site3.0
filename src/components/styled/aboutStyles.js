@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const AboutContainer = styled.div`
   display: flex;
@@ -138,7 +139,7 @@ export const AvatarImgContainer = styled.div`
   margin: 0 auto;
 `
 
-export const AvatarImg = styled.img`
+export const AvatarImg = styled(LazyLoadImage)`
   width: 100%;
   object-fit: cover;
   height: 400px;
@@ -218,6 +219,6 @@ export const BtnContainer = styled.div`
   margin: 50px auto 0 auto;
 `
 
-export const EduPic = styled.img`
+export const EduPic = styled(LazyLoadImage)`
   width: 300px;
 `

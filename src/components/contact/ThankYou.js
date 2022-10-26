@@ -5,7 +5,11 @@ import { Slide } from 'react-reveal';
 const ThankYou = () => (
   <ExtraPgContainer>
     <Slide top>
-      <ExtraPgPic src={Logo} alt='logo'/>
+      <ExtraPgPic 
+        src={Logo} 
+        alt='logo'
+        effect="blur"
+      />
     </Slide>
     <Slide bottom>
       <h1>Thank You For Your Submission</h1>

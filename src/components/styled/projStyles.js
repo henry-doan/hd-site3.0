@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const ProjInnerCard = styled.div`
   display: flex;
@@ -200,7 +201,7 @@ export const RectFour = styled(Rect)`
   border: 4px solid #00DCF9;
 `
 
-export const FeaturedProj = styled.img`
+export const FeaturedProj = styled(LazyLoadImage)`
   width: 100%;
   height: 100%;
   object-fit: cover;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const Form = styled.form`
   width: 500px;
@@ -115,7 +116,7 @@ export const FrontCard = styled.div`
   backface-visibility: hidden;
 `
 
-export const FrontLogo = styled.img`
+export const FrontLogo = styled(LazyLoadImage)`
   width: 350px;
 
   @media (max-width: 768px) {
@@ -216,7 +217,7 @@ export const BackLeft = styled.div`
   justify-content: center;
 `
 
-export const BackImg = styled.img`
+export const BackImg = styled(LazyLoadImage)`
   width: 100px;
 `
 

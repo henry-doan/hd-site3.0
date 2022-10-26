@@ -11,11 +11,19 @@ const ContactCard = () => (
     <CardContainer>
       <CardContainerInner>
         <FrontCard>
-          <FrontLogo src="https://res.cloudinary.com/doan/image/upload/v1597276217/logo_vwe97g.png" alt='logo' />
+          <FrontLogo 
+            src="https://res.cloudinary.com/doan/image/upload/v1597276217/logo_vwe97g.png" 
+            alt='logo' 
+            effect="blur"
+          />
         </FrontCard>
         <BackCard>
           <BackLeft>
-            <BackImg src={Logo} alt="logo" />
+            <BackImg
+              src={Logo} 
+              alt="logo" 
+              effect="blur"
+            />
           </BackLeft>
           <BackRight>
             <BackName>Henry Doan</BackName>

@@ -5,7 +5,11 @@ const Navbar = () => (
   <>
     <SideNav>
       <LogoContainer>
-        <LogoImg src={Logo} alt="logo" />
+        <LogoImg 
+          src={Logo} 
+          alt="logo" 
+          effect="blur"
+        />
       </LogoContainer>
       <SideNavItem to="/">
         <SideNavIcon className="fa fa-home"></SideNavIcon>
