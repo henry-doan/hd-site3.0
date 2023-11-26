@@ -29,13 +29,24 @@ const ProjectDetails = () => {
               { stack.map( tool => <ProjSkill>{tool}</ProjSkill>)}
             </ProjSkills>
           </Fade>
-          <HBtn href={liveSite} target="_blank" el="noopener noreferrer">
-            <TopBtn></TopBtn>
-            <RtBtn></RtBtn>
-            <BottomBtn></BottomBtn>
-            <LtBtn></LtBtn>
-            Go To Site
-          </HBtn>
+          {
+            liveSite ?
+            <HBtn href={liveSite} target="_blank" el="noopener noreferrer">
+              <TopBtn></TopBtn>
+              <RtBtn></RtBtn>
+              <BottomBtn></BottomBtn>
+              <LtBtn></LtBtn>
+              Go To Site
+            </HBtn>
+            :
+            <HLink to="/private-repo" primary>
+              <TopBtn></TopBtn>
+              <RtBtn></RtBtn>
+              <BottomBtn></BottomBtn>
+              <LtBtn></LtBtn>
+              Go To Site
+            </HLink>
+          }
           { 
             github ?
             <HBtn href={github} target="_blank" el="noopener noreferrer">

@@ -66,7 +66,7 @@ const projs = [
     desc: "This was a final project for CS... course at Weber State University and combines all the topics we learned into a live enviroment. This application makes planning for a potluck easy. Where users can collaborate on a event to sign up for what to bring for the event and able to create the event and all of it's details. This solo project got me to design the whole site, logos, and layouts and then later implement the designs into development then finally production with in a two month time frame.",
     shortDesc: "Planner for Potluck",
     github: "https://github.com/henry-doan/django-potluck-planner",
-    liveSite: "https://doan-django-potluck-planner.herokuapp.com/",
+    // liveSite: "https://doan-django-potluck-planner.herokuapp.com/",
     stack: [
       "Django",
       "Python",
