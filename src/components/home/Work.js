@@ -9,7 +9,7 @@ const Work = () => (
         title="Custom Development Software Engineer" 
         start="October 2022"
         current
-        para="Worked on large scale industry projects with commission work from schools and institutions."
+        para="Worked on large-scale EdTech projects with commissioned work from schools and institutions. Developed comprehensive documentation, database architectures, and products to meet specific requirements. Promptly addressed institutions' issues and bugs. Engaged closely with teams, leveraging Agile methodologies and conducting code reviews."
       />        
     </TabPane>
     <TabPane tab="DevPoint Studios" key="2">
