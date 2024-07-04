@@ -4,7 +4,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const MainContainer = styled.div`
   margin-left: 120px;
-  // padding: 12px 24px !important;
   color: white;
   background-color: black;
   height: 100vh;
@@ -18,11 +17,9 @@ export const MainContainer = styled.div`
 export const MainHeader = styled.div`
   background-image: url(${ props => props.img });
   min-height: 80%;
-  // background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  // position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,4 +291,8 @@ export const ExtraPgContainer = styled.div`
 
 export const ExtraPgPic = styled(LazyLoadImage)`
   border-radius: 500rem;
+`
+
+export const SpacedLi = styled.li`
+  margin-bottom: 5px;
 `

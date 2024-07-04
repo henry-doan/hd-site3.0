@@ -9,7 +9,14 @@ const Work = () => (
         title="Custom Development Software Engineer" 
         start="October 2022"
         current
-        para="Worked on large-scale EdTech projects with commissioned work from schools and institutions. Developed comprehensive documentation, database architectures, and products to meet specific requirements. Promptly addressed institutions' issues and bugs. Engaged closely with teams, leveraging Agile methodologies and conducting code reviews."
+        bullets={[
+          "Worked on large-scale EdTech projects with commissioned work from schools and institutions of custom reporting tools and tools to assist educators with classroom management and instructions.",
+          "Developed comprehensive documentation, database architectures, and products to meet specific requirements.",
+          "Troubleshooted issues, fixed bugs, and improved application performance.",
+          "Deployed applications and systems to beta, test, quality assurance, and production environments.",
+          "Conducting code reviews, and providing constructive feedback to other team members.",
+          "Collaborated with cross-functional teams (including designers, solution architects, product managers, and other engineers) to ship new features leveraging Agile methodologies.",
+        ]}
       />        
     </TabPane>
     <TabPane tab="DevPoint Studios" key="2">
@@ -17,7 +24,12 @@ const Work = () => (
         title="Full Stack Web Developer" 
         start="May 2017"
         end="February 2023"
-        para="Developed and implemented full-stack applications utilizing the latest industry frameworks and technologies to meet the client’s specifications. Used AGILE and SCRUM methodology to coordinate with team members."
+        bullets={[
+          "Developed and implemented full-stack applications using the latest industry frameworks and technologies to meet client specifications.",
+          "Consultant in analyzing client needs, recommending solutions, and implementing strategies to enhance client outcomes.",
+          "Test and debug applications to ensure they meet quality and performance standards.",
+          "Utilized Agile and Scrum methodologies to coordinate with team members.",
+        ]}
       />        
     </TabPane>
     <TabPane tab="DevPoint Labs" key="3">
@@ -25,7 +37,11 @@ const Work = () => (
         title="Lead Instructor" 
         start="October 2017"
         end="February 2023"
-        para="Educated and trained 150+ individuals to become full-stack web developers utilizing the latest industry best practices, tools, and programming languages. Content created for lectures, projects, and assignments to gear towards concepts learned through the Bootcamp."
+        bullets={[
+          "Educated and mentored 150+ individuals to become full-stack web developers utilizing the latest industry best practices, tools, and programming languages. ",
+          "Create and facilitate hands-on coding lessons exercises, content, projects, and assignments to reinforce learning objectives.",
+          "Assess student progress through quizzes, tests, projects, and participation in class discussions.",
+        ]}
       />        
     </TabPane>
     <TabPane tab="Future In Design" key="4">
@@ -33,7 +49,12 @@ const Work = () => (
         title="Instructor" 
         start="December 2017"
         end="January 2019"
-        para="Educating and mentoring high school youths in an after-school program geared towards developing future industry leaders in various technological fields. Providing them with information in the foundation of software engineering and web development."
+        bullets={[
+          "Educating and mentoring high school youths in an after-school program geared towards developing future industry leaders in various technological fields. ",
+          "Develop and implement a variety of recreational coding programs and activities suitable for high school youths.",
+          "Foster a positive and inclusive atmosphere that encourages student participation, cooperation, and respect for others.",
+          "Equipping the students with foundational knowledge in software engineering and web development.",
+        ]}
       />
     </TabPane>
   </Tabs>

@@ -29,7 +29,7 @@ const Navbar = () => (
           Contact
         </p>
       </SideNavItem>
-      <SideNavItemA href="https://docs.google.com/document/d/1uV-iyxnuHtep7nX9MV4fet8STJEgL3JhbUGZNMtcZPA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <SideNavItemA href="https://docs.google.com/document/d/1HoQqkuyZOBhxT0MThLMXUKmWhSaE2X8vd7g5ozcs4b8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
         <SideNavIcon className="fa fa-file-code-o"></SideNavIcon>
         <p>
           RESUMÉ
