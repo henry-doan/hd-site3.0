@@ -2,6 +2,9 @@ import { CardContainer, FrontCard, FrontLogo, BackCard, BackTitle, BackName, Car
 import Logo from '../../images/Logo.png';
 import { HomeProjTitle } from '../styled/projStyles';
 import { Flip } from 'react-reveal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter, faGithub, faYoutube, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faEnvelope, faArrowPointer } from '@fortawesome/free-solid-svg-icons';
 
 const ContactCard = () => (
   <>
@@ -29,28 +32,28 @@ const ContactCard = () => (
             <BackName>Henry Doan</BackName>
             <BackTitle>Full Stack Web Developer</BackTitle>
             <BackText>
-              <i className='fa fa-phone'></i> 801-584-9392
+             <FontAwesomeIcon icon={faPhone} /> 801-584-9392
             </BackText>
             <BackText>
-              <i className='fa fa-envelope'></i> henrydoan96@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} /> henrydoan96@gmail.com
             </BackText>
             <BackText>
-              <i className='fa fa-mouse-pointer'></i> https://henry-doan.netlify.app/
+              <FontAwesomeIcon icon={faArrowPointer} /> https://henry-doan.netlify.app/
             </BackText>
             <BackSocial href="https://github.com/henry-doan/" target="_blank" el="noopener noreferrer">
-              <i className="fa fa-github"></i>
+              <FontAwesomeIcon icon={faGithub} />
             </BackSocial>
             <BackSocial href="https://www.youtube.com/channel/UC1R4U_9mDr3T240TKoCOUFw" target="_blank" el="noopener noreferrer">
-              <i className="fa fa-youtube-play"></i>
+              <FontAwesomeIcon icon={faYoutube} />
             </BackSocial>
             <BackSocial href="https://www.linkedin.com/in/henrydoan/" target="_blank" el="noopener noreferrer">
-              <i className="fa fa-linkedin"></i>
+              <FontAwesomeIcon icon={faLinkedin} />
             </BackSocial>
-            <BackSocial href="https://twitter.com/@nightwing819/" target="_blank" el="noopener noreferrer">
-              <i className="fa fa-twitter"></i>
+            <BackSocial href="https://x.com/nightwing819" target="_blank" el="noopener noreferrer">
+              <FontAwesomeIcon icon={faXTwitter} />
             </BackSocial>
             <BackSocial href="https://www.instagram.com/hdcoding/" target="_blank" el="noopener noreferrer">
-              <i className="fa fa-instagram"></i>
+              <FontAwesomeIcon icon={faInstagram} />
             </BackSocial>
           </BackRight>
         </BackCard>
