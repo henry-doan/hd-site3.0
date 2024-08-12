@@ -1,7 +1,8 @@
-import { AboutTitle, AboutMainIcon, AboutContainer, AvatarSec, AvatarImg, NameTitle, SkillsSec, DateSec, DateIcon, AboutSec, AboutLeft, AboutRight, AboutPara, AvatarImgContainer, AboutLink, AboutOutSourceLink, BtnContainer } from "../styled/aboutStyles";
+import { faBriefcase, faCode, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Avatar from '../../images/hdAvatar.jpeg';
-import { ProjSkills, ProjSkill } from '../styled/projStyles';
-import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
+import { AboutContainer, AboutLeft, AboutLink, AboutMainIcon, AboutOutSourceLink, AboutPara, AboutRight, AboutSec, AboutTitle, AvatarImg, AvatarImgContainer, AvatarSec, BtnContainer, DateIcon, DateSec, NameTitle, SkillsSec } from "../styled/aboutStyles";
+import { ProjSkill, ProjSkills } from '../styled/projStyles';
+import { BottomBtn, HBtn, LtBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
 import skills from './Skills';
 
 const About = () => (
@@ -10,11 +11,11 @@ const About = () => (
       <AboutLeft>
         <NameTitle>Henry Doan</NameTitle>
         <DateSec>
-          <DateIcon className="fa fa-briefcase fa-fw"></DateIcon>
+          <DateIcon className="fa fa-fw" icon={faBriefcase} />
           Full Stack Web Developer
         </DateSec>
         <DateSec>
-          <DateIcon className="fa fa-map-marker fa-fw"></DateIcon>
+          <DateIcon className="fa fa-fw" icon={faLocationDot} />
           Sillicon Slopes
         </DateSec>
         <AboutPara>
@@ -41,7 +42,7 @@ const About = () => (
     </AboutSec>
     <SkillsSec>
       <AboutTitle>
-        <AboutMainIcon className="fa fa-code fa-fw"></AboutMainIcon>
+        <AboutMainIcon className="fa fa-fw" icon={faCode} />
         Skills
       </AboutTitle>
       <ProjSkills>

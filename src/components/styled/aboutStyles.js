@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const AboutContainer = styled.div`
   display: flex;
@@ -43,7 +44,7 @@ export const AboutTitle = styled.h3`
   margin: 10px 0;
 `
 
-export const AboutMainIcon = styled.i`
+export const AboutMainIcon = styled(FontAwesomeIcon)`
   color: #00DCF9;
   margin-right: 16px;
   font-size: 20px;
@@ -71,7 +72,7 @@ export const DateSec = styled.h4`
   margin: 10px 0;
 `
 
-export const DateIcon = styled.i`
+export const DateIcon = styled(FontAwesomeIcon)`
   color: #00DCF9;
   margin-right: 16px;
 `

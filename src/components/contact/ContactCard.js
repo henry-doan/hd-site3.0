@@ -1,10 +1,10 @@
-import { CardContainer, FrontCard, FrontLogo, BackCard, BackTitle, BackName, CardContainerInner, BackText, BackSocial, BackLeft, BackRight, BackImg } from '../styled/contactStyles';
-import Logo from '../../images/Logo.png';
-import { HomeProjTitle } from '../styled/projStyles';
-import { Flip } from 'react-reveal';
+import { faGithub, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faArrowPointer, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXTwitter, faGithub, faYoutube, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope, faArrowPointer } from '@fortawesome/free-solid-svg-icons';
+import { Flip } from 'react-reveal';
+import Logo from '../../images/Logo.png';
+import { BackCard, BackImg, BackLeft, BackName, BackRight, BackSocial, BackText, BackTitle, CardContainer, CardContainerInner, FrontCard, FrontLogo } from '../styled/contactStyles';
+import { HomeProjTitle } from '../styled/projStyles';
 
 const ContactCard = () => (
   <>
