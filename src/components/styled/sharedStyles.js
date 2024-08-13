@@ -1,6 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const MainContainer = styled.div`
   margin-left: 120px;

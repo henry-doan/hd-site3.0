@@ -1,14 +1,15 @@
-import Header from '../shared/Header';
+import { Fade, Flip, Slide } from 'react-reveal';
+
 import Welcome from '../../images/lowpolyDevices.png';
 import WelcomeMobile from '../../images/welcomeMobile.png';
-import { SharedContainer, HomeTitle } from '../styled/sharedStyles';
+import Header from '../shared/Header';
 import { Line } from "../styled/aboutStyles";
+import { HomeTitle, SharedContainer } from '../styled/sharedStyles';
 import About from './About';
-import Edu from './Edu';
-import Work from './Work';
 import ContactSec from './ContactSec';
+import Edu from './Edu';
 import Proj from './Proj';
-import { Flip, Fade, Slide } from 'react-reveal';
+import Work from './Work';
 
 const Home = () => (
 	<>

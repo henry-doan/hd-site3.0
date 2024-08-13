@@ -1,6 +1,7 @@
-import styled from 'styled-components';
-import { Link, NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link, NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const SideNav = styled.nav`
   width: 120px;
@@ -70,7 +71,7 @@ export const SideNavItemA = styled.a`
   }
 `
 
-export const SideNavIcon = styled.i`
+export const SideNavIcon = styled(FontAwesomeIcon)`
   font-size: 30px !important;
 `
 
@@ -140,6 +141,6 @@ export const SmallNavItemA = styled.a`
   cursor: pointer;
 `
 
-export const SmallNavIcon = styled.i`
+export const SmallNavIcon = styled(FontAwesomeIcon)`
   margin-right: 5px;
 `

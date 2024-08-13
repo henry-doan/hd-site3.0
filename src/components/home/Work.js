@@ -1,5 +1,6 @@
 import Tabs, { TabPane } from 'rc-tabs';
 import '../../../node_modules/rc-tabs/assets/index.css';
+
 import ExpSection from './ExpSection';
 
 const Work = () => (

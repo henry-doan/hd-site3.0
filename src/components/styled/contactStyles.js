@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import styled from "styled-components";
 
 export const Form = styled.form`
   width: 500px;

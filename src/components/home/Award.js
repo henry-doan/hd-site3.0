@@ -2,6 +2,7 @@ import { faCamera } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
+
 import { DateIcon, EduPic } from "../styled/aboutStyles";
 
 const Award = ({ para, pic }) => {

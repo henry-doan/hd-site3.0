@@ -1,5 +1,5 @@
-import { HLink, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
 import { ContactSecContainer, ContactSecPara, ContactSecTitle } from '../styled/aboutStyles';
+import { BottomBtn, HLink, LtBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
 
 const ContactSec = () => (
   <ContactSecContainer>

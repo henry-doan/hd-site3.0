@@ -1,4 +1,5 @@
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+
 import { CurrentDate, DateIcon, DateSec, WorkExpSection, WorkExpSingle, WorkTitle, } from "../styled/aboutStyles";
 import { SpacedLi } from "../styled/sharedStyles";
 

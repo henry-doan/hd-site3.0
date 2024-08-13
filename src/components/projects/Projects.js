@@ -1,7 +1,8 @@
-import { ProjCard, ProjCardTitle, ProjInnerCard, ProjCardSubtitle, ProjectsContainer, HomeProjTitle } from '../styled/projStyles';
+import { Fade, Flip } from 'react-reveal';
+
+import { HomeProjTitle, ProjCard, ProjCardSubtitle, ProjCardTitle, ProjectsContainer, ProjInnerCard } from '../styled/projStyles';
 import { SharedContainer } from '../styled/sharedStyles';
 import projs from './projectData';
-import { Flip, Fade } from 'react-reveal';
 
 const Projects = () => (
 	<SharedContainer>

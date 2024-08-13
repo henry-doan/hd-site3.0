@@ -1,9 +1,10 @@
-import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Form, ContactTextInput, ContactTextArea } from '../styled/contactStyles';
-import { MainBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle } from '../styled/sharedStyles';
+import { useState } from 'react';
+import { Fade, Flip } from 'react-reveal';
 import { useNavigate } from 'react-router-dom';
-import { Flip, Fade } from 'react-reveal';
+
+import { ContactTextArea, ContactTextInput, Form } from '../styled/contactStyles';
+import { BottomBtn, HomeSubTitle, LtBtn, MainBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
 
 const ContactForm = () => {
   const [contact, setContact] = useState({ from_name: '', reply_to: '', message_html: '' })

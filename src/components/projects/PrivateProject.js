@@ -1,6 +1,7 @@
-import Logo from '../../images/LogoSquare.png'
-import { HLink, TopBtn, RtBtn, BottomBtn, LtBtn, ExtraPgContainer, ExtraPgPic } from '../styled/sharedStyles';
 import { Slide } from 'react-reveal';
+
+import Logo from '../../images/LogoSquare.png';
+import { BottomBtn, ExtraPgContainer, ExtraPgPic, HLink, LtBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
 
 const PrivateProject = () => (
   <ExtraPgContainer>

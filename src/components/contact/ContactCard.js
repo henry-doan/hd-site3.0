@@ -2,6 +2,7 @@ import { faGithub, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@forta
 import { faArrowPointer, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Flip } from 'react-reveal';
+
 import Logo from '../../images/Logo.png';
 import { BackCard, BackImg, BackLeft, BackName, BackRight, BackSocial, BackText, BackTitle, CardContainer, CardContainerInner, FrontCard, FrontLogo } from '../styled/contactStyles';
 import { HomeProjTitle } from '../styled/projStyles';

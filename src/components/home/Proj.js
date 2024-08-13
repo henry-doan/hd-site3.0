@@ -1,5 +1,5 @@
-import { HomeProjContainer, HomeProjLeft, HomeProjRight, RectOne, RectTwo, RectThree, RectFour, FeaturedProj, HomeProjTitle, HomeProjPara, HomeProjText } from '../styled/projStyles';
-import { HLink, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styled/sharedStyles';
+import { FeaturedProj, HomeProjContainer, HomeProjLeft, HomeProjPara, HomeProjRight, HomeProjText, HomeProjTitle, RectFour, RectOne, RectThree, RectTwo } from '../styled/projStyles';
+import { BottomBtn, HLink, LtBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
 
 const Proj = () => (
   <HomeProjContainer>

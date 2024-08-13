@@ -1,4 +1,5 @@
 import { faBriefcase, faCode, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+
 import Avatar from '../../images/hdAvatar.jpeg';
 import { AboutContainer, AboutLeft, AboutLink, AboutMainIcon, AboutOutSourceLink, AboutPara, AboutRight, AboutSec, AboutTitle, AvatarImg, AvatarImgContainer, AvatarSec, BtnContainer, DateIcon, DateSec, NameTitle, SkillsSec } from "../styled/aboutStyles";
 import { ProjSkill, ProjSkills } from '../styled/projStyles';

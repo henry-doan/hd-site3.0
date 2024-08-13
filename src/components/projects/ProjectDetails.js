@@ -1,8 +1,9 @@
-import Header from '../shared/Header';
+import { Fade, Flip } from 'react-reveal';
 import { useLocation } from 'react-router-dom';
-import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, HomeSubTitle, HLink } from '../styled/sharedStyles';
-import { ProjDetailContainer, ProjDescSection, ProjSkillsSection, ProjSkills, ProjSkill, ProjDesc, HomeProjTitle } from '../styled/projStyles';
-import { Flip, Fade } from 'react-reveal';
+
+import Header from '../shared/Header';
+import { HomeProjTitle, ProjDesc, ProjDescSection, ProjDetailContainer, ProjSkill, ProjSkills, ProjSkillsSection } from '../styled/projStyles';
+import { BottomBtn, HBtn, HLink, HomeSubTitle, LtBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
 
 const ProjectDetails = () => {
   const location = useLocation();
