@@ -221,5 +221,5 @@ export const BtnContainer = styled.div`
 `
 
 export const EduPic = styled(LazyLoadImage)`
-  width: 300px;
+  width: 40vw;
 `

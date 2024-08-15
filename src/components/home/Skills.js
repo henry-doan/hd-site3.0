@@ -10,6 +10,8 @@ const skills = [
   "CSS",
   "Git / Github",
   "Gerrit",
+  "Jenkins",
+  "CI/CD Pipeline",
   "Heroku",
   "Styled Components",
   "PostgreSQL",
