@@ -17,7 +17,7 @@ const skills = [
   "PostgreSQL",
   "Sidkiq",
   "React Router",
-  "Context API",
+  "RESTful API",
   "Redux",
   ".Net Core",
   "Django",

@@ -14,8 +14,7 @@ const Work = () => (
           "Worked on large-scale EdTech projects with commissioned work from schools and institutions of custom reporting tools and tools to assist educators with classroom management and instructions.",
           "Developed comprehensive documentation, database architectures, and products to meet specific requirements.",
           "Troubleshooted issues, fixed bugs, and improved application performance.",
-          "Deployed applications and systems to beta, test, quality assurance, and production environments.",
-          "Conducting code reviews, and providing constructive feedback to other team members.",
+          "Implemented CI/CD pipelines to automate deployment processes to beta, test, quality assurance, and production environments.",
           "Collaborated with cross-functional teams (including designers, solution architects, product managers, and other engineers) to ship new features leveraging Agile methodologies.",
         ]}
       />        
