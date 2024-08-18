@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 
-import { DateIcon, EduPic } from "../styled/aboutStyles";
+import { EduPicIcon, EduPic } from "../styled/aboutStyles";
 
 const Award = ({ para, pic }) => {
   const [open, setOpen] = useState(false);
@@ -11,7 +11,7 @@ const Award = ({ para, pic }) => {
   return(
     <>
       <p>{para}</p>
-      <DateIcon className="fa fa-fw" icon={faCamera} onClick={() => setOpen(true)} />
+      <EduPicIcon className="fa fa-fw" icon={faCamera} onClick={() => setOpen(true)} />
       <Modal open={open} onClose={() => setOpen(false)} center>
         <EduPic 
           src={pic} 

@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { TabPane } from 'rc-tabs';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -222,4 +223,8 @@ export const BtnContainer = styled.div`
 
 export const EduPic = styled(LazyLoadImage)`
   width: 40vw;
+`
+
+export const EduPicIcon = styled(DateIcon)`
+  cursor: pointer;
 `

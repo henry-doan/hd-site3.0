@@ -8,7 +8,7 @@ import { BottomBtn, HBtn, HLink, HomeSubTitle, LtBtn, RtBtn, TopBtn } from '../s
 const ProjectDetails = () => {
   const location = useLocation();
 
-  const { name, img, desc, github, liveSite, stack } = location.state
+  const { name, img, desc, desc2, github, liveSite, stack } = location.state
   return(
     <>
       <Header img={img} text={name} />
@@ -20,6 +20,11 @@ const ProjectDetails = () => {
           <Fade left>
             <ProjDesc>{desc}</ProjDesc>
           </Fade>
+            { desc2 ?
+              <Fade left>
+                <ProjDesc>{desc2}</ProjDesc>
+              </Fade>
+            : null}
         </ProjDescSection>
         <ProjSkillsSection>
           <Flip top>

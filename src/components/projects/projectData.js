@@ -1,6 +1,35 @@
 const projs = [
   {
     id: 1,
+    name: 'Canvas LMS/LTIs',
+    img: "https://res.cloudinary.com/doan/image/upload/v1723998222/hd-site/canvaslms.png",
+    desc: "At Instructure, I have worked with various products including Catalog, Impact, and primarily Canvas. In the Custom Development department, I developed custom reports and LTIs for Canvas, tailored for schools and institutions. These reporting tools track student information and progress within a course and calculate overall course performance. Additionally, I enhanced the student experience by improving translation tools that translate discussion posts within a module. I also handle support tickets for existing and legacy projects, addressing bugs and errors that arise with our custom tools.",
+    desc2: "On the front end, I used ReactJS and TypeScript to create a user-friendly interface for teachers. On the back end, I implemented complex SQL queries and used Ruby on Rails to pull in the necessary data and perform calculations for report display. Throughout the development process, I utilized a CI/CD pipeline with Jenkins and Gerrit to ensure smooth deployment and development. Additionally, I employed Sidekiq and Sentry to monitor processes and errors across all environments.",
+    shortDesc: "Learning Mananagement Systems and Tools for Educators",
+    github: "",
+    // liveSite: "https://www.canvas.com/",
+    stack: [
+      "Ruby on Rails",
+      "React JS",
+      "Typescript",
+      "PostgreSQL",
+      "Heroku", 
+      "Redis",
+      "Sidekiq",
+      "Sentry",
+      "Gerrit",
+      "Redux",
+      "Styled Components",
+      "React Router",
+      "RESTful API",
+      "Jenkins",
+      "CI/CD Pipeline",
+      "Rspec",
+      "Internal Gems",
+    ]
+  },
+  {
+    id: 2,
     name: 'DevPoint Labs',
     img: "https://res.cloudinary.com/doan/image/upload/v1645327663/hd-site/dpl.png",
     desc: "A website for the DevPoint Labs Coding school for their information, contact and to accept applications. This site gets updated for each cohort where the dates are changes and the launch day for the class is created. I created all of the features, every page and the application process based off of the designs given as well as maintain the site for new updates and upcomming content.",
@@ -20,7 +49,7 @@ const projs = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     name: 'Jr Devs',
     img: "https://res.cloudinary.com/doan/image/upload/v1645327660/hd-site/jr-devs.png",
     desc: "This was a 2015 final group project for the Full-Stack Web Devlopment full time course at DevPoint Labs. The project is learn-to-code application with tutorials and exercises to bridge the gap of boring hard code to easy, fun way of learning the basics of programming and some ruby language. I have worked on the prototype for the site to test out the concepts and lesson on actual students ages 10+ doing a beta program. Then on the project itself, I have worked on many pages, mailers, features and lessons planned for the content.",
@@ -40,7 +69,7 @@ const projs = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     name: 'Grad Cap',
     img: "https://res.cloudinary.com/doan/image/upload/v1647466330/hd-site/grad.png",
     desc: "This is a freelance job that was complete from the small upcomming company of Grad Cap LLC. A resume consultation company to help individuals with their resumes and tips on landing a long comming career. This is an all in one tool to manage applications and inputs and display the data in a graphic interface for analysis purposes. Also within the app, workers can use the site for client management and be able to take notes and pass them along in the business processes. I built out the whole application from backend to frontend, worked hand and hand with the client to create the dream site and tools they would need to run the company. This project really expanded my horizons of implementing multiple third party APIs, such as Braintree for payment and processing, Recharts for graphs and analytic data, and making my own API to fit the client needs. This site is in the process of getting revamp into a new version and technologies.",
@@ -59,21 +88,21 @@ const projs = [
       "Recharts",
     ]
   },
-  {
-    id: 4,
-    name: 'Potluck Planner',
-    img: "https://res.cloudinary.com/doan/image/upload/v1645327659/hd-site/potluck-planner.png",
-    desc: "This was a final project for CS... course at Weber State University and combines all the topics we learned into a live enviroment. This application makes planning for a potluck easy. Where users can collaborate on a event to sign up for what to bring for the event and able to create the event and all of it's details. This solo project got me to design the whole site, logos, and layouts and then later implement the designs into development then finally production with in a two month time frame.",
-    shortDesc: "Planner for Potluck",
-    github: "https://github.com/henry-doan/django-potluck-planner",
-    // liveSite: "https://doan-django-potluck-planner.herokuapp.com/",
-    stack: [
-      "Django",
-      "Python",
-      "Sqlite3",
-      "Heroku"
-    ]
-  },
+  // {
+  //   id: 5,
+  //   name: 'Potluck Planner',
+  //   img: "https://res.cloudinary.com/doan/image/upload/v1645327659/hd-site/potluck-planner.png",
+  //   desc: "This was a final project for Computer Science course at Weber State University and combines all the topics we learned into a live enviroment. This application makes planning for a potluck easy. Where users can collaborate on a event to sign up for what to bring for the event and able to create the event and all of it's details. This solo project got me to design the whole site, logos, and layouts and then later implement the designs into development then finally production with in a two month time frame.",
+  //   shortDesc: "Planner for Potluck",
+  //   github: "https://github.com/henry-doan/django-potluck-planner",
+  //   // liveSite: "https://doan-django-potluck-planner.herokuapp.com/",
+  //   stack: [
+  //     "Django",
+  //     "Python",
+  //     "Sqlite3",
+  //     "Heroku"
+  //   ]
+  // },
   {
     id: 5,
     name: 'DPL Sheets',

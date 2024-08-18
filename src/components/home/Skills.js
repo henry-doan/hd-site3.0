@@ -16,6 +16,7 @@ const skills = [
   "Styled Components",
   "PostgreSQL",
   "Sidkiq",
+  "Sentry",
   "React Router",
   "RESTful API",
   "Redux",

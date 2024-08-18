@@ -5,7 +5,7 @@ import EduSection from './EduSection';
 
 const Edu = () => (
   <Tabs defaultActiveKey="1" tabPosition="right">
-    <TabPane tab="CS Bachelor's Degree" key="1">
+    <TabPane tab="Computer Science Bachelor's Degree" key="1">
       <EduSection 
         title="Weber State University" 
         start="July 2020"
