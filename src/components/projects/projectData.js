@@ -18,6 +18,7 @@ const projs = [
       "Sidekiq",
       "Sentry",
       "Gerrit",
+      "AWS",
       "Redux",
       "Styled Components",
       "React Router",
