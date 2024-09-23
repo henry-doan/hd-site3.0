@@ -32,7 +32,7 @@ const Navbar = () => (
           Contact
         </p>
       </SideNavItem>
-      <SideNavItemA href="https://docs.google.com/document/d/1HoQqkuyZOBhxT0MThLMXUKmWhSaE2X8vd7g5ozcs4b8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <SideNavItemA href="https://docs.google.com/document/d/1KzT5Ejc1KZzDdvNuFdYJ3JyIKXcz2eTYJ_VRPa8_JO8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
         <SideNavIcon icon={faFileCode} />
         <p>
           RESUMÉ
