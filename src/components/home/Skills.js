@@ -12,6 +12,7 @@ const skills = [
   "Git / Github",
   "Gerrit",
   "Jenkins",
+  "Docker",
   "CI/CD Pipeline",
   "Heroku",
   "AWS",
@@ -22,10 +23,13 @@ const skills = [
   "React Router",
   "RESTful API",
   "Redux",
+  "MobX",
   "Redis",
   ".Net Core",
   "Django",
   "Python",
+  "Java",
+  "C#",
 ]
 
 export default skills;
