@@ -9,7 +9,8 @@ const Work = () => (
       <ExpSection 
         title="Custom Development Software Engineer" 
         start="October 2022"
-        current
+        end="October 2024"
+        // current
         bullets={[
           "Worked on large-scale EdTech projects with commissioned work from schools and institutions of custom reporting tools and tools to assist educators with classroom management and instructions.",
           "Developed comprehensive documentation, database architectures, and products to meet specific requirements.",
