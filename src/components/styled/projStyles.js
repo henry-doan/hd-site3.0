@@ -246,3 +246,10 @@ export const HomeProjPara = styled.p`
     padding: 16px;
   }
 `
+
+export const ProjSkillTitle = styled.p`
+  margin: 5px 20px;
+  color: #00DCF9;
+  font-weight: 900;
+  text-transform: capitalize;
+`

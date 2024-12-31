@@ -23,7 +23,7 @@ const Home = () => (
 			</Fade>
 			<Line />
 			<Flip top>
-				<HomeTitle>Where I’ve Worked</HomeTitle>
+				<HomeTitle>Where I've Worked</HomeTitle>
 			</Flip>
 			<Fade left>
 				<Work />

@@ -2,9 +2,10 @@ import { faBriefcase, faCode, faLocationDot } from "@fortawesome/free-solid-svg-
 
 import Avatar from '../../images/hdAvatar.jpeg';
 import { AboutContainer, AboutLeft, AboutLink, AboutMainIcon, AboutOutSourceLink, AboutPara, AboutRight, AboutSec, AboutTitle, AvatarImg, AvatarImgContainer, AvatarSec, BtnContainer, DateIcon, DateSec, NameTitle, SkillsSec } from "../styled/aboutStyles";
-import { ProjSkill, ProjSkills } from '../styled/projStyles';
+import { ProjSkill, ProjSkills, ProjSkillTitle } from '../styled/projStyles';
 import { BottomBtn, HBtn, LtBtn, RtBtn, TopBtn } from '../styled/sharedStyles';
-import skills from './Skills';
+import KnowSkills from './KnowSkills';
+import FamiliarSkills from './FamiliarSkills';
 
 const About = () => (
   <AboutContainer>
@@ -47,7 +48,10 @@ const About = () => (
         Skills
       </AboutTitle>
       <ProjSkills>
-        { skills.map( tool => <ProjSkill key={tool}>{tool}</ProjSkill>)}
+        <ProjSkillTitle>Proficient in:</ProjSkillTitle> { KnowSkills.map( tool => <ProjSkill key={tool}>{tool}</ProjSkill>)}
+      </ProjSkills>
+      <ProjSkills>
+        <ProjSkillTitle>Familiar with:</ProjSkillTitle> { FamiliarSkills.map( tool => <ProjSkill key={tool}>{tool}</ProjSkill>)}
       </ProjSkills>
     </SkillsSec>
     <BtnContainer>

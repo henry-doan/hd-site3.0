@@ -1,4 +1,4 @@
-const skills = [
+const KnowSkills = [
   "ReactJS",
   "Ruby On Rails",
   "Javascript (ES6 and Beyond)",
@@ -25,11 +25,8 @@ const skills = [
   "Redux",
   "MobX",
   "Redis",
-  ".Net Core",
   "Django",
   "Python",
-  "Java",
-  "C#",
 ]
 
-export default skills;
+export default KnowSkills;
